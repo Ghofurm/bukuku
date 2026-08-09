@@ -20,29 +20,29 @@
     "semantic_hash": "f01253ffd68f7cb5000b40ec0a992fbe"
   },
   "app/Models/Book.php": {
-    "mtime": 1786255463.9480915,
-    "ast_hash": "2ac875766ee31bb6f78206dc69356202",
-    "semantic_hash": ""
+    "mtime": 1786251441.9230516,
+    "ast_hash": "ac6e546af86181c9ccf7003daecd2e35",
+    "semantic_hash": "ac6e546af86181c9ccf7003daecd2e35"
   },
   "app/Models/Bookshelf.php": {
-    "mtime": 1786255469.0024052,
-    "ast_hash": "78ede5c720fe4b27cc9f23ecd1220061",
-    "semantic_hash": ""
+    "mtime": 1786251453.9815884,
+    "ast_hash": "26e9c8f0e0e4cf9a841efd3884e0a3b3",
+    "semantic_hash": "26e9c8f0e0e4cf9a841efd3884e0a3b3"
   },
   "app/Models/Genre.php": {
-    "mtime": 1786255457.8164804,
-    "ast_hash": "94f91ce3b8b31ad3c3a66860c862cdd5",
-    "semantic_hash": ""
+    "mtime": 1786251436.7214131,
+    "ast_hash": "575eccfaafa4ed07991ba279bbaf643c",
+    "semantic_hash": "575eccfaafa4ed07991ba279bbaf643c"
   },
   "app/Models/Review.php": {
-    "mtime": 1786255466.6128874,
-    "ast_hash": "13aa3c567c2e963e079eeb4e6bb56687",
-    "semantic_hash": ""
+    "mtime": 1786251447.417192,
+    "ast_hash": "8aaf9bfed14d32b3efb78df56a8c23b6",
+    "semantic_hash": "8aaf9bfed14d32b3efb78df56a8c23b6"
   },
   "app/Models/User.php": {
-    "mtime": 1786255461.572473,
-    "ast_hash": "f7a76144ec90d21b8c77beac40205f07",
-    "semantic_hash": ""
+    "mtime": 1779750712.0,
+    "ast_hash": "ca00ef9e587df52eeb3f687855f5c234",
+    "semantic_hash": "ca00ef9e587df52eeb3f687855f5c234"
   },
   "app/Providers/AppServiceProvider.php": {
     "mtime": 1779750712.0,
