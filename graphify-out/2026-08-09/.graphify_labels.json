@@ -5,7 +5,6 @@
   "3": "User",
   "5": "AuthController",
   "6": "Illuminate\\Database\\Seeder",
-  "7": "require-dev",
   "8": "config",
   "9": "AppServiceProvider",
   "10": "TestCase",
@@ -32,7 +31,6 @@
   "32": "Agentic Development with Laravel Boost",
   "33": "app.js",
   "34": "welcome.blade.php",
-  "35": "web.php",
   "36": "vite.config.js",
   "37": "UserFactory"
 }

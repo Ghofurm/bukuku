@@ -1,16 +1,16 @@
 # Graph Report - bukuku  (2026-08-09)
 
 ## Corpus Check
-- 47 files · ~13,385 words
+- 47 files · ~13,551 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 213 nodes · 243 edges · 36 communities (33 shown, 3 thin omitted)
+- 213 nodes · 244 edges · 34 communities (31 shown, 3 thin omitted)
 - Extraction: 95% EXTRACTED · 5% INFERRED · 0% AMBIGUOUS · INFERRED: 12 edges (avg confidence: 0.8)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `d5a33560`
+- Built from commit: `fb4f034a`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -21,7 +21,6 @@
 - User
 - AuthController
 - Illuminate\Database\Seeder
-- require-dev
 - config
 - AppServiceProvider
 - TestCase
@@ -53,11 +52,11 @@
 ## Import Cycles
 - None detected.
 
-## Communities (36 total, 3 thin omitted)
+## Communities (34 total, 3 thin omitted)
 
 ### Community 0 - "composer.json"
-Cohesion: 0.08
-Nodes (25): autoload, autoload-dev, psr-4, psr-4, description, extra, laravel, keywords (+17 more)
+Cohesion: 0.06
+Nodes (33): autoload, autoload-dev, psr-4, psr-4, description, extra, laravel, keywords (+25 more)
 
 ### Community 1 - "scripts"
 Cohesion: 0.08
@@ -68,20 +67,16 @@ Cohesion: 0.11
 Nodes (17): concurrently, laravel-vite-plugin, devDependencies, concurrently, laravel-vite-plugin, tailwindcss, @tailwindcss/vite, vite (+9 more)
 
 ### Community 3 - "User"
-Cohesion: 0.23
-Nodes (5): User, Illuminate\Database\Eloquent\Factories\HasFactory, Illuminate\Database\Eloquent\Relations\HasMany, Illuminate\Foundation\Auth\User, Illuminate\Notifications\Notifiable
+Cohesion: 0.18
+Nodes (6): User, UserSeder, Illuminate\Database\Eloquent\Factories\HasFactory, Illuminate\Database\Eloquent\Relations\HasMany, Illuminate\Foundation\Auth\User, Illuminate\Notifications\Notifiable
 
 ### Community 5 - "AuthController"
-Cohesion: 0.18
+Cohesion: 0.16
 Nodes (7): AuthController, Controller, CheckAdmin, CheckLogin, Closure, Illuminate\Http\Request, Symfony\Component\HttpFoundation\Response
 
 ### Community 6 - "Illuminate\Database\Seeder"
-Cohesion: 0.10
-Nodes (13): Book, Bookshelf, Genre, Review, BookSeder, DatabaseSeeder, GenreSeeder, ReviewSeder (+5 more)
-
-### Community 7 - "require-dev"
-Cohesion: 0.25
-Nodes (8): require-dev, fakerphp/faker, laravel/pail, laravel/pao, laravel/pint, mockery/mockery, nunomaduro/collision, phpunit/phpunit
+Cohesion: 0.11
+Nodes (12): Book, Bookshelf, Genre, Review, BookSeder, DatabaseSeeder, GenreSeeder, ReviewSeder (+4 more)
 
 ### Community 8 - "config"
 Cohesion: 0.29
@@ -110,9 +105,7 @@ _Questions this graph is uniquely positioned to answer:_
 - **Why does `scripts` connect `scripts` to `composer.json`?**
   _High betweenness centrality (0.057) - this node is a cross-community bridge._
 - **Why does `User` connect `User` to `AuthController`, `Illuminate\Database\Seeder`?**
-  _High betweenness centrality (0.030) - this node is a cross-community bridge._
-- **Why does `require-dev` connect `require-dev` to `composer.json`?**
-  _High betweenness centrality (0.019) - this node is a cross-community bridge._
+  _High betweenness centrality (0.031) - this node is a cross-community bridge._
 - **Are the 5 inferred relationships involving `User` (e.g. with `.changePassword()` and `.login()`) actually correct?**
   _`User` has 5 INFERRED edges - model-reasoned connections that need verification._
 - **Are the 2 inferred relationships involving `Book` (e.g. with `.run()` and `.run()`) actually correct?**
@@ -120,4 +113,6 @@ _Questions this graph is uniquely positioned to answer:_
 - **What connects `$schema`, `name`, `type` to the rest of the system?**
   _59 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `composer.json` be split into smaller, more focused modules?**
-  _Cohesion score 0.07692307692307693 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.058823529411764705 - nodes in this community are weakly interconnected._
+- **Should `scripts` be split into smaller, more focused modules?**
+  _Cohesion score 0.08 - nodes in this community are weakly interconnected._
