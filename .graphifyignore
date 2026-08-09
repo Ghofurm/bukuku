@@ -5,3 +5,4 @@ public/build/
 bootstrap/cache/
 .env
 /.agents
+.nmprc
