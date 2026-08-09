@@ -1,8 +1,8 @@
 {
   "app/Http/Controllers/AuthController.php": {
-    "mtime": 1786254337.059108,
-    "ast_hash": "07699147cfe7f76d9e76089f82275d22",
-    "semantic_hash": "07699147cfe7f76d9e76089f82275d22"
+    "mtime": 1786256338.8970692,
+    "ast_hash": "eeec9540e1cb31dd03fc0251656403d3",
+    "semantic_hash": ""
   },
   "app/Http/Controllers/Controller.php": {
     "mtime": 1779750712.0,
@@ -10,14 +10,14 @@
     "semantic_hash": "25a307335c0719bc9a91b3f7babd186d"
   },
   "app/Http/Middleware/CheckAdmin.php": {
-    "mtime": 1786254340.242396,
-    "ast_hash": "e5b96c7916347929354349ce8735e8c8",
-    "semantic_hash": "e5b96c7916347929354349ce8735e8c8"
+    "mtime": 1786256345.894626,
+    "ast_hash": "76bb62a646d6eca5966f799c3040bf98",
+    "semantic_hash": ""
   },
   "app/Http/Middleware/CheckLogin.php": {
-    "mtime": 1786254337.5408244,
-    "ast_hash": "f01253ffd68f7cb5000b40ec0a992fbe",
-    "semantic_hash": "f01253ffd68f7cb5000b40ec0a992fbe"
+    "mtime": 1786256342.365773,
+    "ast_hash": "0fb8f775b427f57f5ddeb6d931ad224e",
+    "semantic_hash": ""
   },
   "app/Models/Book.php": {
     "mtime": 1786255463.9480915,
@@ -55,9 +55,9 @@
     "semantic_hash": "e66bb13691f6184c762c196427d8e685"
   },
   "bootstrap/app.php": {
-    "mtime": 1779750712.0,
-    "ast_hash": "1af409508a89bf168e42816535a9503b",
-    "semantic_hash": "1af409508a89bf168e42816535a9503b"
+    "mtime": 1786256348.3349247,
+    "ast_hash": "0d97922adfc19a50da77e8dadd2b5e71",
+    "semantic_hash": ""
   },
   "bootstrap/providers.php": {
     "mtime": 1779750712.0,

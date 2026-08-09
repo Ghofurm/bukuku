@@ -131,7 +131,7 @@
       "_origin": "ast",
       "id": "app_models_book",
       "community": 6,
-      "community_name": "Illuminate\\Database\\Eloquent\\Model",
+      "community_name": "Book",
       "norm_label": "book.php"
     },
     {
@@ -144,7 +144,7 @@
       "_origin": "ast",
       "id": "app_models_book_book",
       "community": 6,
-      "community_name": "Illuminate\\Database\\Eloquent\\Model",
+      "community_name": "Book",
       "norm_label": "book"
     },
     {
@@ -156,7 +156,7 @@
       "_origin": "ast",
       "id": "app_models_book_book_genre",
       "community": 6,
-      "community_name": "Illuminate\\Database\\Eloquent\\Model",
+      "community_name": "Book",
       "norm_label": ".genre()"
     },
     {
@@ -168,7 +168,7 @@
       "_origin": "ast",
       "id": "app_models_book_book_reviews",
       "community": 6,
-      "community_name": "Illuminate\\Database\\Eloquent\\Model",
+      "community_name": "Book",
       "norm_label": ".reviews()"
     },
     {
@@ -179,8 +179,8 @@
       "_callable": true,
       "_origin": "ast",
       "id": "app_models_book_book_bookshelves",
-      "community": 6,
-      "community_name": "Illuminate\\Database\\Eloquent\\Model",
+      "community": 3,
+      "community_name": "User",
       "norm_label": ".bookshelves()"
     },
     {
@@ -192,7 +192,7 @@
       "_origin": "ast",
       "id": "app_models_book_book_recalculateaveragerating",
       "community": 6,
-      "community_name": "Illuminate\\Database\\Eloquent\\Model",
+      "community_name": "Book",
       "norm_label": ".recalculateaveragerating()"
     },
     {
@@ -203,7 +203,7 @@
       "_origin": "ast",
       "id": "app_models_bookshelf",
       "community": 6,
-      "community_name": "Illuminate\\Database\\Eloquent\\Model",
+      "community_name": "Book",
       "norm_label": "bookshelf.php"
     },
     {
@@ -216,7 +216,7 @@
       "_origin": "ast",
       "id": "app_models_bookshelf_bookshelf",
       "community": 6,
-      "community_name": "Illuminate\\Database\\Eloquent\\Model",
+      "community_name": "Book",
       "norm_label": "bookshelf"
     },
     {
@@ -228,7 +228,7 @@
       "_origin": "ast",
       "id": "app_models_bookshelf_bookshelf_user",
       "community": 6,
-      "community_name": "Illuminate\\Database\\Eloquent\\Model",
+      "community_name": "Book",
       "norm_label": ".user()"
     },
     {
@@ -240,7 +240,7 @@
       "_origin": "ast",
       "id": "app_models_bookshelf_bookshelf_book",
       "community": 6,
-      "community_name": "Illuminate\\Database\\Eloquent\\Model",
+      "community_name": "Book",
       "norm_label": ".book()"
     },
     {
@@ -250,8 +250,8 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "app_models_genre",
-      "community": 6,
-      "community_name": "Illuminate\\Database\\Eloquent\\Model",
+      "community": 3,
+      "community_name": "User",
       "norm_label": "genre.php"
     },
     {
@@ -263,8 +263,8 @@
       "_callable_class": true,
       "_origin": "ast",
       "id": "app_models_genre_genre",
-      "community": 6,
-      "community_name": "Illuminate\\Database\\Eloquent\\Model",
+      "community": 3,
+      "community_name": "User",
       "norm_label": "genre"
     },
     {
@@ -275,8 +275,8 @@
       "_callable": true,
       "_origin": "ast",
       "id": "app_models_genre_genre_books",
-      "community": 6,
-      "community_name": "Illuminate\\Database\\Eloquent\\Model",
+      "community": 3,
+      "community_name": "User",
       "norm_label": ".books()"
     },
     {
@@ -287,7 +287,7 @@
       "_origin": "ast",
       "id": "app_models_review",
       "community": 6,
-      "community_name": "Illuminate\\Database\\Eloquent\\Model",
+      "community_name": "Book",
       "norm_label": "review.php"
     },
     {
@@ -300,7 +300,7 @@
       "_origin": "ast",
       "id": "app_models_review_review",
       "community": 6,
-      "community_name": "Illuminate\\Database\\Eloquent\\Model",
+      "community_name": "Book",
       "norm_label": "review"
     },
     {
@@ -324,7 +324,7 @@
       "_origin": "ast",
       "id": "app_models_review_review_user",
       "community": 6,
-      "community_name": "Illuminate\\Database\\Eloquent\\Model",
+      "community_name": "Book",
       "norm_label": ".user()"
     },
     {
@@ -336,7 +336,7 @@
       "_origin": "ast",
       "id": "app_models_review_review_book",
       "community": 6,
-      "community_name": "Illuminate\\Database\\Eloquent\\Model",
+      "community_name": "Book",
       "norm_label": ".book()"
     },
     {
@@ -346,7 +346,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "app_models_user",
-      "community": 4,
+      "community": 3,
       "community_name": "User",
       "norm_label": "user.php"
     },
@@ -359,7 +359,7 @@
       "_callable_class": true,
       "_origin": "ast",
       "id": "app_models_user_user",
-      "community": 4,
+      "community": 3,
       "community_name": "User",
       "norm_label": "user"
     },
@@ -371,7 +371,7 @@
       "_callable": true,
       "_origin": "ast",
       "id": "app_models_user_user_casts",
-      "community": 4,
+      "community": 3,
       "community_name": "User",
       "norm_label": ".casts()"
     },
@@ -383,7 +383,7 @@
       "_callable": true,
       "_origin": "ast",
       "id": "app_models_user_user_reviews",
-      "community": 4,
+      "community": 3,
       "community_name": "User",
       "norm_label": ".reviews()"
     },
@@ -395,7 +395,7 @@
       "_callable": true,
       "_origin": "ast",
       "id": "app_models_user_user_bookshelves",
-      "community": 4,
+      "community": 3,
       "community_name": "User",
       "norm_label": ".bookshelves()"
     },
@@ -407,7 +407,7 @@
       "_callable": true,
       "_origin": "ast",
       "id": "app_models_user_user_isadmin",
-      "community": 4,
+      "community": 3,
       "community_name": "User",
       "norm_label": ".isadmin()"
     },
@@ -1247,7 +1247,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "config_auth",
-      "community": 4,
+      "community": 3,
       "community_name": "User",
       "norm_label": "auth.php"
     },
@@ -1362,6 +1362,17 @@
       "community": 37,
       "community_name": "UserFactory",
       "norm_label": "userfactory"
+    },
+    {
+      "label": "Factory",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "factory",
+      "community": 6,
+      "community_name": "Book",
+      "norm_label": "factory"
     },
     {
       "label": ".definition()",
@@ -1580,33 +1591,33 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "database_seeders_bookseder",
-      "community": 3,
-      "community_name": "Illuminate\\Database\\Seeder",
+      "community": 6,
+      "community_name": "Book",
       "norm_label": "bookseder.php"
     },
     {
       "label": "BookSeder",
       "file_type": "code",
       "source_file": "database/seeders/BookSeder.php",
-      "source_location": "L8",
+      "source_location": "L10",
       "_callable": true,
       "_callable_class": true,
       "_origin": "ast",
       "id": "database_seeders_bookseder_bookseder",
-      "community": 3,
-      "community_name": "Illuminate\\Database\\Seeder",
+      "community": 6,
+      "community_name": "Book",
       "norm_label": "bookseder"
     },
     {
       "label": ".run()",
       "file_type": "code",
       "source_file": "database/seeders/BookSeder.php",
-      "source_location": "L13",
+      "source_location": "L16",
       "_callable": true,
       "_origin": "ast",
       "id": "database_seeders_bookseder_bookseder_run",
-      "community": 3,
-      "community_name": "Illuminate\\Database\\Seeder",
+      "community": 6,
+      "community_name": "Book",
       "norm_label": ".run()"
     },
     {
@@ -1617,32 +1628,32 @@
       "_origin": "ast",
       "id": "database_seeders_databaseseeder",
       "community": 3,
-      "community_name": "Illuminate\\Database\\Seeder",
+      "community_name": "User",
       "norm_label": "databaseseeder.php"
     },
     {
       "label": "DatabaseSeeder",
       "file_type": "code",
       "source_file": "database/seeders/DatabaseSeeder.php",
-      "source_location": "L9",
+      "source_location": "L7",
       "_callable": true,
       "_callable_class": true,
       "_origin": "ast",
       "id": "database_seeders_databaseseeder_databaseseeder",
       "community": 3,
-      "community_name": "Illuminate\\Database\\Seeder",
+      "community_name": "User",
       "norm_label": "databaseseeder"
     },
     {
       "label": ".run()",
       "file_type": "code",
       "source_file": "database/seeders/DatabaseSeeder.php",
-      "source_location": "L16",
+      "source_location": "L13",
       "_callable": true,
       "_origin": "ast",
       "id": "database_seeders_databaseseeder_databaseseeder_run",
       "community": 3,
-      "community_name": "Illuminate\\Database\\Seeder",
+      "community_name": "User",
       "norm_label": ".run()"
     },
     {
@@ -1653,32 +1664,32 @@
       "_origin": "ast",
       "id": "database_seeders_genreseeder",
       "community": 3,
-      "community_name": "Illuminate\\Database\\Seeder",
+      "community_name": "User",
       "norm_label": "genreseeder.php"
     },
     {
       "label": "GenreSeeder",
       "file_type": "code",
       "source_file": "database/seeders/GenreSeeder.php",
-      "source_location": "L8",
+      "source_location": "L9",
       "_callable": true,
       "_callable_class": true,
       "_origin": "ast",
       "id": "database_seeders_genreseeder_genreseeder",
       "community": 3,
-      "community_name": "Illuminate\\Database\\Seeder",
+      "community_name": "User",
       "norm_label": "genreseeder"
     },
     {
       "label": ".run()",
       "file_type": "code",
       "source_file": "database/seeders/GenreSeeder.php",
-      "source_location": "L13",
+      "source_location": "L15",
       "_callable": true,
       "_origin": "ast",
       "id": "database_seeders_genreseeder_genreseeder_run",
       "community": 3,
-      "community_name": "Illuminate\\Database\\Seeder",
+      "community_name": "User",
       "norm_label": ".run()"
     },
     {
@@ -1688,33 +1699,33 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "database_seeders_reviewseder",
-      "community": 3,
-      "community_name": "Illuminate\\Database\\Seeder",
+      "community": 6,
+      "community_name": "Book",
       "norm_label": "reviewseder.php"
     },
     {
       "label": "ReviewSeder",
       "file_type": "code",
       "source_file": "database/seeders/ReviewSeder.php",
-      "source_location": "L8",
+      "source_location": "L11",
       "_callable": true,
       "_callable_class": true,
       "_origin": "ast",
       "id": "database_seeders_reviewseder_reviewseder",
-      "community": 3,
-      "community_name": "Illuminate\\Database\\Seeder",
+      "community": 6,
+      "community_name": "Book",
       "norm_label": "reviewseder"
     },
     {
       "label": ".run()",
       "file_type": "code",
       "source_file": "database/seeders/ReviewSeder.php",
-      "source_location": "L13",
+      "source_location": "L17",
       "_callable": true,
       "_origin": "ast",
       "id": "database_seeders_reviewseder_reviewseder_run",
-      "community": 3,
-      "community_name": "Illuminate\\Database\\Seeder",
+      "community": 6,
+      "community_name": "Book",
       "norm_label": ".run()"
     },
     {
@@ -1725,32 +1736,32 @@
       "_origin": "ast",
       "id": "database_seeders_userseder",
       "community": 3,
-      "community_name": "Illuminate\\Database\\Seeder",
+      "community_name": "User",
       "norm_label": "userseder.php"
     },
     {
       "label": "UserSeder",
       "file_type": "code",
       "source_file": "database/seeders/UserSeder.php",
-      "source_location": "L8",
+      "source_location": "L9",
       "_callable": true,
       "_callable_class": true,
       "_origin": "ast",
       "id": "database_seeders_userseder_userseder",
       "community": 3,
-      "community_name": "Illuminate\\Database\\Seeder",
+      "community_name": "User",
       "norm_label": "userseder"
     },
     {
       "label": ".run()",
       "file_type": "code",
       "source_file": "database/seeders/UserSeder.php",
-      "source_location": "L13",
+      "source_location": "L15",
       "_callable": true,
       "_origin": "ast",
       "id": "database_seeders_userseder_userseder_run",
       "community": 3,
-      "community_name": "Illuminate\\Database\\Seeder",
+      "community_name": "User",
       "norm_label": ".run()"
     },
     {
@@ -2154,7 +2165,7 @@
       "_origin": "ast",
       "id": "illuminate_database_eloquent_model",
       "community": 6,
-      "community_name": "Illuminate\\Database\\Eloquent\\Model",
+      "community_name": "Book",
       "norm_label": "illuminate\\database\\eloquent\\model"
     },
     {
@@ -2165,7 +2176,7 @@
       "_origin": "ast",
       "id": "illuminate_database_eloquent_relations_belongsto",
       "community": 6,
-      "community_name": "Illuminate\\Database\\Eloquent\\Model",
+      "community_name": "Book",
       "norm_label": "illuminate\\database\\eloquent\\relations\\belongsto"
     },
     {
@@ -2175,8 +2186,8 @@
       "source_location": "",
       "_origin": "ast",
       "id": "illuminate_database_eloquent_relations_hasmany",
-      "community": 6,
-      "community_name": "Illuminate\\Database\\Eloquent\\Model",
+      "community": 3,
+      "community_name": "User",
       "norm_label": "illuminate\\database\\eloquent\\relations\\hasmany"
     },
     {
@@ -2186,7 +2197,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "illuminate_database_eloquent_factories_hasfactory",
-      "community": 4,
+      "community": 3,
       "community_name": "User",
       "norm_label": "illuminate\\database\\eloquent\\factories\\hasfactory"
     },
@@ -2197,7 +2208,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "illuminate_notifications_notifiable",
-      "community": 4,
+      "community": 3,
       "community_name": "User",
       "norm_label": "illuminate\\notifications\\notifiable"
     },
@@ -2208,7 +2219,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "illuminate_foundation_auth_user",
-      "community": 4,
+      "community": 3,
       "community_name": "User",
       "norm_label": "illuminate\\foundation\\auth\\user"
     },
@@ -2235,17 +2246,6 @@
       "norm_label": "illuminate\\database\\eloquent\\factories\\factory"
     },
     {
-      "label": "Illuminate\\Database\\Console\\Seeds\\WithoutModelEvents",
-      "file_type": "code",
-      "source_file": "",
-      "source_location": "",
-      "_origin": "ast",
-      "id": "illuminate_database_console_seeds_withoutmodelevents",
-      "community": 3,
-      "community_name": "Illuminate\\Database\\Seeder",
-      "norm_label": "illuminate\\database\\console\\seeds\\withoutmodelevents"
-    },
-    {
       "label": "Illuminate\\Database\\Seeder",
       "file_type": "code",
       "source_file": "",
@@ -2253,7 +2253,7 @@
       "_origin": "ast",
       "id": "illuminate_database_seeder",
       "community": 3,
-      "community_name": "Illuminate\\Database\\Seeder",
+      "community_name": "User",
       "norm_label": "illuminate\\database\\seeder"
     },
     {
@@ -2669,6 +2669,30 @@
       "confidence_score": 1.0
     },
     {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "database/seeders/BookSeder.php",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "database_seeders_bookseder",
+      "target": "app_models_book",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "database/seeders/ReviewSeder.php",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "database_seeders_reviewseder",
+      "target": "app_models_book",
+      "confidence_score": 1.0
+    },
+    {
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "app/Models/Book.php",
@@ -2722,6 +2746,30 @@
       "source": "app_models_book_book",
       "target": "illuminate_database_eloquent_model",
       "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "database/seeders/BookSeder.php",
+      "source_location": "L22",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "database_seeders_bookseder_bookseder_run",
+      "target": "app_models_book_book"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "database/seeders/ReviewSeder.php",
+      "source_location": "L21",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "database_seeders_reviewseder_reviewseder_run",
+      "target": "app_models_book_book"
     },
     {
       "relation": "references",
@@ -2899,6 +2947,30 @@
       "confidence_score": 1.0
     },
     {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "database/seeders/BookSeder.php",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "database_seeders_bookseder",
+      "target": "app_models_genre",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "database/seeders/GenreSeeder.php",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "database_seeders_genreseeder",
+      "target": "app_models_genre",
+      "confidence_score": 1.0
+    },
+    {
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "app/Models/Genre.php",
@@ -2919,6 +2991,30 @@
       "source": "app_models_genre_genre",
       "target": "illuminate_database_eloquent_model",
       "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "database/seeders/BookSeder.php",
+      "source_location": "L19",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "database_seeders_bookseder_bookseder_run",
+      "target": "app_models_genre_genre"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "database/seeders/GenreSeeder.php",
+      "source_location": "L31",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "database_seeders_genreseeder_genreseeder_run",
+      "target": "app_models_genre_genre"
     },
     {
       "relation": "references",
@@ -2968,6 +3064,18 @@
       "confidence_score": 1.0
     },
     {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "database/seeders/ReviewSeder.php",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "database_seeders_reviewseder",
+      "target": "app_models_review",
+      "confidence_score": 1.0
+    },
+    {
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "app/Models/Review.php",
@@ -3010,6 +3118,18 @@
       "source": "app_models_review_review",
       "target": "illuminate_database_eloquent_model",
       "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "database/seeders/ReviewSeder.php",
+      "source_location": "L24",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "database_seeders_reviewseder_reviewseder_run",
+      "target": "app_models_review_review"
     },
     {
       "relation": "calls",
@@ -3122,11 +3242,23 @@
       "relation": "imports",
       "context": "import",
       "confidence": "EXTRACTED",
-      "source_file": "database/seeders/DatabaseSeeder.php",
+      "source_file": "database/seeders/ReviewSeder.php",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "database_seeders_reviewseder",
+      "target": "app_models_user",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "database/seeders/UserSeder.php",
       "source_location": "L5",
       "weight": 1.0,
       "_origin": "ast",
-      "source": "database_seeders_databaseseeder",
+      "source": "database_seeders_userseder",
       "target": "app_models_user",
       "confidence_score": 1.0
     },
@@ -3212,11 +3344,23 @@
       "context": "call",
       "confidence": "INFERRED",
       "confidence_score": 0.8,
-      "source_file": "database/seeders/DatabaseSeeder.php",
+      "source_file": "database/seeders/ReviewSeder.php",
       "source_location": "L20",
       "weight": 1.0,
       "_origin": "ast",
-      "source": "database_seeders_databaseseeder_databaseseeder_run",
+      "source": "database_seeders_reviewseder_reviewseder_run",
+      "target": "app_models_user_user"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "database/seeders/UserSeder.php",
+      "source_location": "L30",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "database_seeders_userseder_userseder_run",
       "target": "app_models_user_user"
     },
     {
@@ -4137,6 +4281,30 @@
       "confidence_score": 1.0
     },
     {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "database/seeders/BookSeder.php",
+      "source_location": "L8",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "database_seeders_bookseder",
+      "target": "factory",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "database/seeders/ReviewSeder.php",
+      "source_location": "L9",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "database_seeders_reviewseder",
+      "target": "factory",
+      "confidence_score": 1.0
+    },
+    {
       "relation": "uses_static_prop",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -4273,7 +4441,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "database/seeders/BookSeder.php",
-      "source_location": "L8",
+      "source_location": "L10",
       "weight": 1.0,
       "_origin": "ast",
       "source": "database_seeders_bookseder",
@@ -4285,19 +4453,7 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "database/seeders/BookSeder.php",
-      "source_location": "L5",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "database_seeders_bookseder",
-      "target": "illuminate_database_console_seeds_withoutmodelevents",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "database/seeders/BookSeder.php",
-      "source_location": "L6",
+      "source_location": "L7",
       "weight": 1.0,
       "_origin": "ast",
       "source": "database_seeders_bookseder",
@@ -4308,7 +4464,7 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "database/seeders/BookSeder.php",
-      "source_location": "L13",
+      "source_location": "L16",
       "weight": 1.0,
       "_origin": "ast",
       "source": "database_seeders_bookseder_bookseder",
@@ -4319,7 +4475,7 @@
       "relation": "inherits",
       "confidence": "EXTRACTED",
       "source_file": "database/seeders/BookSeder.php",
-      "source_location": "L8",
+      "source_location": "L10",
       "weight": 1.0,
       "_origin": "ast",
       "source": "database_seeders_bookseder_bookseder",
@@ -4330,7 +4486,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "database/seeders/DatabaseSeeder.php",
-      "source_location": "L9",
+      "source_location": "L7",
       "weight": 1.0,
       "_origin": "ast",
       "source": "database_seeders_databaseseeder",
@@ -4342,19 +4498,7 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "database/seeders/DatabaseSeeder.php",
-      "source_location": "L6",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "database_seeders_databaseseeder",
-      "target": "illuminate_database_console_seeds_withoutmodelevents",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "database/seeders/DatabaseSeeder.php",
-      "source_location": "L7",
+      "source_location": "L5",
       "weight": 1.0,
       "_origin": "ast",
       "source": "database_seeders_databaseseeder",
@@ -4365,7 +4509,7 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "database/seeders/DatabaseSeeder.php",
-      "source_location": "L16",
+      "source_location": "L13",
       "weight": 1.0,
       "_origin": "ast",
       "source": "database_seeders_databaseseeder_databaseseeder",
@@ -4373,21 +4517,10 @@
       "confidence_score": 1.0
     },
     {
-      "relation": "mixes_in",
-      "confidence": "EXTRACTED",
-      "source_file": "database/seeders/DatabaseSeeder.php",
-      "source_location": "L11",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "database_seeders_databaseseeder_databaseseeder",
-      "target": "illuminate_database_console_seeds_withoutmodelevents",
-      "confidence_score": 1.0
-    },
-    {
       "relation": "inherits",
       "confidence": "EXTRACTED",
       "source_file": "database/seeders/DatabaseSeeder.php",
-      "source_location": "L9",
+      "source_location": "L7",
       "weight": 1.0,
       "_origin": "ast",
       "source": "database_seeders_databaseseeder_databaseseeder",
@@ -4398,7 +4531,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "database/seeders/GenreSeeder.php",
-      "source_location": "L8",
+      "source_location": "L9",
       "weight": 1.0,
       "_origin": "ast",
       "source": "database_seeders_genreseeder",
@@ -4410,18 +4543,6 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "database/seeders/GenreSeeder.php",
-      "source_location": "L5",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "database_seeders_genreseeder",
-      "target": "illuminate_database_console_seeds_withoutmodelevents",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "database/seeders/GenreSeeder.php",
       "source_location": "L6",
       "weight": 1.0,
       "_origin": "ast",
@@ -4433,7 +4554,7 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "database/seeders/GenreSeeder.php",
-      "source_location": "L13",
+      "source_location": "L15",
       "weight": 1.0,
       "_origin": "ast",
       "source": "database_seeders_genreseeder_genreseeder",
@@ -4444,7 +4565,7 @@
       "relation": "inherits",
       "confidence": "EXTRACTED",
       "source_file": "database/seeders/GenreSeeder.php",
-      "source_location": "L8",
+      "source_location": "L9",
       "weight": 1.0,
       "_origin": "ast",
       "source": "database_seeders_genreseeder_genreseeder",
@@ -4455,7 +4576,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "database/seeders/ReviewSeder.php",
-      "source_location": "L8",
+      "source_location": "L11",
       "weight": 1.0,
       "_origin": "ast",
       "source": "database_seeders_reviewseder",
@@ -4467,19 +4588,7 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "database/seeders/ReviewSeder.php",
-      "source_location": "L5",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "database_seeders_reviewseder",
-      "target": "illuminate_database_console_seeds_withoutmodelevents",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "database/seeders/ReviewSeder.php",
-      "source_location": "L6",
+      "source_location": "L8",
       "weight": 1.0,
       "_origin": "ast",
       "source": "database_seeders_reviewseder",
@@ -4490,7 +4599,7 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "database/seeders/ReviewSeder.php",
-      "source_location": "L13",
+      "source_location": "L17",
       "weight": 1.0,
       "_origin": "ast",
       "source": "database_seeders_reviewseder_reviewseder",
@@ -4501,7 +4610,7 @@
       "relation": "inherits",
       "confidence": "EXTRACTED",
       "source_file": "database/seeders/ReviewSeder.php",
-      "source_location": "L8",
+      "source_location": "L11",
       "weight": 1.0,
       "_origin": "ast",
       "source": "database_seeders_reviewseder_reviewseder",
@@ -4512,7 +4621,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "database/seeders/UserSeder.php",
-      "source_location": "L8",
+      "source_location": "L9",
       "weight": 1.0,
       "_origin": "ast",
       "source": "database_seeders_userseder",
@@ -4524,18 +4633,6 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "database/seeders/UserSeder.php",
-      "source_location": "L5",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "database_seeders_userseder",
-      "target": "illuminate_database_console_seeds_withoutmodelevents",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "database/seeders/UserSeder.php",
       "source_location": "L6",
       "weight": 1.0,
       "_origin": "ast",
@@ -4547,7 +4644,7 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "database/seeders/UserSeder.php",
-      "source_location": "L13",
+      "source_location": "L15",
       "weight": 1.0,
       "_origin": "ast",
       "source": "database_seeders_userseder_userseder",
@@ -4558,7 +4655,7 @@
       "relation": "inherits",
       "confidence": "EXTRACTED",
       "source_file": "database/seeders/UserSeder.php",
-      "source_location": "L8",
+      "source_location": "L9",
       "weight": 1.0,
       "_origin": "ast",
       "source": "database_seeders_userseder_userseder",
@@ -4927,5 +5024,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "ece0dd7755fbf78f2ef5435e2f4d4d8d5971d8af"
+  "built_at_commit": "40eb4d1233b936f92da680106409ebd6c8a14464"
 }
