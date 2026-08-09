@@ -2560,6 +2560,182 @@
       "norm_label": "app.js"
     },
     {
+      "label": "books/create.blade.php",
+      "file_type": "code",
+      "source_file": "resources/views/admin/books/create.blade.php",
+      "source_location": null,
+      "_origin": "ast",
+      "id": "resources_views_admin_books_create_blade",
+      "community": 35,
+      "community_name": "books/create.blade.php",
+      "norm_label": "books/create.blade.php"
+    },
+    {
+      "label": "books/edit.blade.php",
+      "file_type": "code",
+      "source_file": "resources/views/admin/books/edit.blade.php",
+      "source_location": null,
+      "_origin": "ast",
+      "id": "resources_views_admin_books_edit_blade",
+      "community": 38,
+      "community_name": "books/edit.blade.php",
+      "norm_label": "books/edit.blade.php"
+    },
+    {
+      "label": "admin/books/index.blade.php",
+      "file_type": "code",
+      "source_file": "resources/views/admin/books/index.blade.php",
+      "source_location": null,
+      "_origin": "ast",
+      "id": "resources_views_admin_books_index_blade",
+      "community": 39,
+      "community_name": "admin/books/index.blade.php",
+      "norm_label": "admin/books/index.blade.php"
+    },
+    {
+      "label": "dashboard.blade.php",
+      "file_type": "code",
+      "source_file": "resources/views/admin/dashboard.blade.php",
+      "source_location": null,
+      "_origin": "ast",
+      "id": "resources_views_admin_dashboard_blade",
+      "community": 40,
+      "community_name": "dashboard.blade.php",
+      "norm_label": "dashboard.blade.php"
+    },
+    {
+      "label": "genres/create.blade.php",
+      "file_type": "code",
+      "source_file": "resources/views/admin/genres/create.blade.php",
+      "source_location": null,
+      "_origin": "ast",
+      "id": "resources_views_admin_genres_create_blade",
+      "community": 41,
+      "community_name": "genres/create.blade.php",
+      "norm_label": "genres/create.blade.php"
+    },
+    {
+      "label": "genres/edit.blade.php",
+      "file_type": "code",
+      "source_file": "resources/views/admin/genres/edit.blade.php",
+      "source_location": null,
+      "_origin": "ast",
+      "id": "resources_views_admin_genres_edit_blade",
+      "community": 42,
+      "community_name": "genres/edit.blade.php",
+      "norm_label": "genres/edit.blade.php"
+    },
+    {
+      "label": "genres/index.blade.php",
+      "file_type": "code",
+      "source_file": "resources/views/admin/genres/index.blade.php",
+      "source_location": null,
+      "_origin": "ast",
+      "id": "resources_views_admin_genres_index_blade",
+      "community": 43,
+      "community_name": "genres/index.blade.php",
+      "norm_label": "genres/index.blade.php"
+    },
+    {
+      "label": "users/index.blade.php",
+      "file_type": "code",
+      "source_file": "resources/views/admin/users/index.blade.php",
+      "source_location": null,
+      "_origin": "ast",
+      "id": "resources_views_admin_users_index_blade",
+      "community": 44,
+      "community_name": "users/index.blade.php",
+      "norm_label": "users/index.blade.php"
+    },
+    {
+      "label": "change-password.blade.php",
+      "file_type": "code",
+      "source_file": "resources/views/auth/change-password.blade.php",
+      "source_location": null,
+      "_origin": "ast",
+      "id": "resources_views_auth_change_password_blade",
+      "community": 45,
+      "community_name": "change-password.blade.php",
+      "norm_label": "change-password.blade.php"
+    },
+    {
+      "label": "login.blade.php",
+      "file_type": "code",
+      "source_file": "resources/views/auth/login.blade.php",
+      "source_location": null,
+      "_origin": "ast",
+      "id": "resources_views_auth_login_blade",
+      "community": 46,
+      "community_name": "login.blade.php",
+      "norm_label": "login.blade.php"
+    },
+    {
+      "label": "views/books/index.blade.php",
+      "file_type": "code",
+      "source_file": "resources/views/books/index.blade.php",
+      "source_location": null,
+      "_origin": "ast",
+      "id": "resources_views_books_index_blade",
+      "community": 47,
+      "community_name": "views/books/index.blade.php",
+      "norm_label": "views/books/index.blade.php"
+    },
+    {
+      "label": "books/show.blade.php",
+      "file_type": "code",
+      "source_file": "resources/views/books/show.blade.php",
+      "source_location": null,
+      "_origin": "ast",
+      "id": "resources_views_books_show_blade",
+      "community": 48,
+      "community_name": "books/show.blade.php",
+      "norm_label": "books/show.blade.php"
+    },
+    {
+      "label": "genres/show.blade.php",
+      "file_type": "code",
+      "source_file": "resources/views/genres/show.blade.php",
+      "source_location": null,
+      "_origin": "ast",
+      "id": "resources_views_genres_show_blade",
+      "community": 49,
+      "community_name": "genres/show.blade.php",
+      "norm_label": "genres/show.blade.php"
+    },
+    {
+      "label": "admin.blade.php",
+      "file_type": "code",
+      "source_file": "resources/views/layouts/admin.blade.php",
+      "source_location": null,
+      "_origin": "ast",
+      "id": "resources_views_layouts_admin_blade",
+      "community": 50,
+      "community_name": "admin.blade.php",
+      "norm_label": "admin.blade.php"
+    },
+    {
+      "label": "app.blade.php",
+      "file_type": "code",
+      "source_file": "resources/views/layouts/app.blade.php",
+      "source_location": null,
+      "_origin": "ast",
+      "id": "resources_views_layouts_app_blade",
+      "community": 51,
+      "community_name": "app.blade.php",
+      "norm_label": "app.blade.php"
+    },
+    {
+      "label": "profile/index.blade.php",
+      "file_type": "code",
+      "source_file": "resources/views/profile/index.blade.php",
+      "source_location": null,
+      "_origin": "ast",
+      "id": "resources_views_profile_index_blade",
+      "community": 52,
+      "community_name": "profile/index.blade.php",
+      "norm_label": "profile/index.blade.php"
+    },
+    {
       "label": "welcome.blade.php",
       "file_type": "code",
       "source_file": "resources/views/welcome.blade.php",
@@ -7089,5 +7265,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "eef6a317ea9358117fcff054c4bbf533400f5dd1"
+  "built_at_commit": "2df2de3bc7bb383573846a59a7d823708df6aa69"
 }

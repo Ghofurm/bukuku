@@ -34,6 +34,22 @@
   "32": "Agentic Development with Laravel Boost",
   "33": "app.js",
   "34": "welcome.blade.php",
+  "35": "books/create.blade.php",
   "36": "vite.config.js",
-  "37": "UserFactory"
+  "37": "UserFactory",
+  "38": "books/edit.blade.php",
+  "39": "admin/books/index.blade.php",
+  "40": "dashboard.blade.php",
+  "41": "genres/create.blade.php",
+  "42": "genres/edit.blade.php",
+  "43": "genres/index.blade.php",
+  "44": "users/index.blade.php",
+  "45": "change-password.blade.php",
+  "46": "login.blade.php",
+  "47": "views/books/index.blade.php",
+  "48": "books/show.blade.php",
+  "49": "genres/show.blade.php",
+  "50": "admin.blade.php",
+  "51": "app.blade.php",
+  "52": "profile/index.blade.php"
 }

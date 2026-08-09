@@ -1,16 +1,16 @@
 # Graph Report - bukuku  (2026-08-09)
 
 ## Corpus Check
-- 56 files · ~14,703 words
+- 72 files · ~16,605 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 256 nodes · 358 edges · 37 communities (34 shown, 3 thin omitted)
+- 272 nodes · 358 edges · 53 communities (50 shown, 3 thin omitted)
 - Extraction: 97% EXTRACTED · 3% INFERRED · 0% AMBIGUOUS · INFERRED: 12 edges (avg confidence: 0.8)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `eef6a317`
+- Built from commit: `2df2de3b`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -59,7 +59,7 @@
 ## Import Cycles
 - None detected.
 
-## Communities (37 total, 3 thin omitted)
+## Communities (53 total, 3 thin omitted)
 
 ### Community 0 - "composer.json"
 Cohesion: 0.06
@@ -122,11 +122,11 @@ Nodes (3): UserFactory, Illuminate\Database\Eloquent\Factories\Factory, static
 _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `User` connect `User` to `Book`, `CheckLogin.php`, `UserFactory`, `Illuminate\Database\Seeder`?**
-  _High betweenness centrality (0.063) - this node is a cross-community bridge._
+  _High betweenness centrality (0.056) - this node is a cross-community bridge._
 - **Why does `scripts` connect `scripts` to `composer.json`?**
-  _High betweenness centrality (0.040) - this node is a cross-community bridge._
-- **Why does `Controller` connect `User` to `Book`, `Illuminate\Http\Request`, `Genre`?**
   _High betweenness centrality (0.035) - this node is a cross-community bridge._
+- **Why does `Controller` connect `User` to `Book`, `Illuminate\Http\Request`, `Genre`?**
+  _High betweenness centrality (0.031) - this node is a cross-community bridge._
 - **Are the 3 inferred relationships involving `Book` (e.g. with `.index()` and `.run()`) actually correct?**
   _`Book` has 3 INFERRED edges - model-reasoned connections that need verification._
 - **Are the 5 inferred relationships involving `Genre` (e.g. with `.create()` and `.edit()`) actually correct?**

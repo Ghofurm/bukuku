@@ -238,5 +238,50 @@
     "mtime": 1779750712.0,
     "ast_hash": "b6216d61c03e6ce0c9aea6ca7808f7ca",
     "semantic_hash": "b6216d61c03e6ce0c9aea6ca7808f7ca"
+  },
+  "app/Http/Controllers/Admin/AdminBookController.php": {
+    "mtime": 1786256818.4380798,
+    "ast_hash": "7a1ba8e10c2342a6efc436b0ef3c8a17",
+    "semantic_hash": ""
+  },
+  "app/Http/Controllers/Admin/AdminDashboardController.php": {
+    "mtime": 1786256814.8133163,
+    "ast_hash": "1a7cae289f3a2d0946eda2cca2c1db94",
+    "semantic_hash": ""
+  },
+  "app/Http/Controllers/Admin/AdminGenreController.php": {
+    "mtime": 1786256820.8450983,
+    "ast_hash": "8e08c9a8cb838f41d0e2b9c179fc88ee",
+    "semantic_hash": ""
+  },
+  "app/Http/Controllers/Admin/AdminUserController.php": {
+    "mtime": 1786256823.330483,
+    "ast_hash": "46682ed3218af6e2abf427f2a312aa8d",
+    "semantic_hash": ""
+  },
+  "app/Http/Controllers/BookController.php": {
+    "mtime": 1786256747.593215,
+    "ast_hash": "cdcceb46dff115dce3d166292ddb3735",
+    "semantic_hash": ""
+  },
+  "app/Http/Controllers/BookshelfController.php": {
+    "mtime": 1786256773.6567628,
+    "ast_hash": "16866608b2664a2df0bbaf2a30b07bd8",
+    "semantic_hash": ""
+  },
+  "app/Http/Controllers/GenreController.php": {
+    "mtime": 1786256758.2046542,
+    "ast_hash": "8c73c98d9f2546e39ef014f64affa710",
+    "semantic_hash": ""
+  },
+  "app/Http/Controllers/ProfileController.php": {
+    "mtime": 1786256810.8420198,
+    "ast_hash": "781ec9f13a5189371541da5e66dd2c23",
+    "semantic_hash": ""
+  },
+  "app/Http/Controllers/ReviewController.php": {
+    "mtime": 1786256769.4735146,
+    "ast_hash": "f91da1f048fec75d04db8c7d8a4e539c",
+    "semantic_hash": ""
   }
 }
