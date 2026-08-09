@@ -6,11 +6,11 @@
 
 ### Dial Settings (dari design-taste-frontend skill)
 
-| Dial             | Nilai | Alasan                                                                                            |
-|------------------|-------|---------------------------------------------------------------------------------------------------|
-| DESIGN_VARIANCE  | 5     | Minimalis, clean, tapi tidak membosankan. Sedikit asimetri untuk karakter.                        |
-| MOTION_INTENSITY | 4     | Smooth dan modern tapi tidak berlebihan. CSS transitions + sedikit scroll-reveal.                 |
-| VISUAL_DENSITY   | 3     | Airy, banyak whitespace. Memberi kesan tenang dan lapang. User tidak tertekan.                    |
+| Dial             | Nilai | Alasan                                                                            |
+| ---------------- | ----- | --------------------------------------------------------------------------------- |
+| DESIGN_VARIANCE  | 5     | Minimalis, clean, tapi tidak membosankan. Sedikit asimetri untuk karakter.        |
+| MOTION_INTENSITY | 4     | Smooth dan modern tapi tidak berlebihan. CSS transitions + sedikit scroll-reveal. |
+| VISUAL_DENSITY   | 3     | Airy, banyak whitespace. Memberi kesan tenang dan lapang. User tidak tertekan.    |
 
 ---
 
@@ -44,33 +44,45 @@ Mengubah tampilan Bukuku dari HTML polos menjadi antarmuka yang:
 
 ## 2. Tech Stack Frontend
 
-| Layer           | Teknologi                              | Cara Pakai                                   |
-|-----------------|----------------------------------------|----------------------------------------------|
-| CSS Framework   | Bootstrap 5.3.x (CDN)                 | `<link>` di `<head>` layout                  |
-| Icons           | Bootstrap Icons (CDN)                  | `<link>` di `<head>` layout                  |
-| Custom Styling  | Vanilla CSS (`public/css/bukuku.css`)  | CSS custom properties untuk tema autumn       |
-| Font            | Google Fonts CDN (Outfit + Inter Tight)| `<link>` di `<head>` layout                  |
-| Animasi         | CSS Transitions + Keyframes            | Didefinisikan di `bukuku.css`                 |
+| Layer          | Teknologi                               | Cara Pakai                              |
+| -------------- | --------------------------------------- | --------------------------------------- |
+| CSS Framework  | Bootstrap 5.3.x (CDN)                   | `<link>` di `<head>` layout             |
+| Icons          | Bootstrap Icons (CDN)                   | `<link>` di `<head>` layout             |
+| Custom Styling | Vanilla CSS (`public/css/bukuku.css`)   | CSS custom properties untuk tema autumn |
+| Font           | Google Fonts CDN (Outfit + Inter Tight) | `<link>` di `<head>` layout             |
+| Animasi        | CSS Transitions + Keyframes             | Didefinisikan di `bukuku.css`           |
 
 ### 2.1 CDN yang Digunakan
 
 ```html
 <!-- Google Fonts -->
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Inter+Tight:wght@400;500&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link
+    href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Inter+Tight:wght@400;500&display=swap"
+    rel="stylesheet"
+/>
 
 <!-- Bootstrap 5.3 CSS -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+/>
 
 <!-- Bootstrap Icons -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+<link
+    href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    rel="stylesheet"
+/>
 
 <!-- Custom Autumn Theme -->
-<link href="{{ asset('css/bukuku.css') }}" rel="stylesheet">
+<link href="{{ asset('css/bukuku.css') }}" rel="stylesheet" />
 
 <!-- Bootstrap 5.3 JS Bundle (Popper included) -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" defer></script>
+<script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    defer
+></script>
 ```
 
 > **Catatan:** File `resources/css/app.css` (Tailwind) tidak lagi digunakan. Semua styling berpindah ke `public/css/bukuku.css` yang bisa diakses langsung tanpa build process.
@@ -116,52 +128,52 @@ Utility:
 
 ### 3.2 Tipografi
 
-| Elemen         | Font           | Weight | Size             | Line Height | Keterangan                         |
-|----------------|----------------|--------|------------------|-------------|-------------------------------------|
-| Display / H1   | Outfit         | 600    | 2rem (32px)      | 1.2         | Judul halaman, nama buku di detail  |
-| H2             | Outfit         | 600    | 1.5rem (24px)    | 1.3         | Sub-section heading                 |
-| H3             | Outfit         | 500    | 1.25rem (20px)   | 1.3         | Card heading, sidebar heading       |
-| Body           | Outfit         | 400    | 1rem (16px)      | 1.6         | Paragraf, deskripsi, review         |
-| Small / Caption| Inter Tight    | 400    | 0.875rem (14px)  | 1.5         | Metadata, tanggal, author name      |
-| Micro          | Inter Tight    | 500    | 0.75rem (12px)   | 1.4         | Badge, label kecil                  |
-| Nav link       | Outfit         | 500    | 0.9375rem (15px) | 1           | Menu navigasi                       |
+| Elemen          | Font        | Weight | Size             | Line Height | Keterangan                         |
+| --------------- | ----------- | ------ | ---------------- | ----------- | ---------------------------------- |
+| Display / H1    | Outfit      | 600    | 2rem (32px)      | 1.2         | Judul halaman, nama buku di detail |
+| H2              | Outfit      | 600    | 1.5rem (24px)    | 1.3         | Sub-section heading                |
+| H3              | Outfit      | 500    | 1.25rem (20px)   | 1.3         | Card heading, sidebar heading      |
+| Body            | Outfit      | 400    | 1rem (16px)      | 1.6         | Paragraf, deskripsi, review        |
+| Small / Caption | Inter Tight | 400    | 0.875rem (14px)  | 1.5         | Metadata, tanggal, author name     |
+| Micro           | Inter Tight | 500    | 0.75rem (12px)   | 1.4         | Badge, label kecil                 |
+| Nav link        | Outfit      | 500    | 0.9375rem (15px) | 1           | Menu navigasi                      |
 
 ### 3.3 Spacing System
 
 Menggunakan skala kelipatan 4px yang konsisten:
 
-| Token     | Nilai  | Penggunaan                          |
-|-----------|--------|-------------------------------------|
-| `--sp-1`  | 4px    | Gap antar elemen inline              |
-| `--sp-2`  | 8px    | Padding internal kecil               |
-| `--sp-3`  | 12px   | Padding card internal                |
-| `--sp-4`  | 16px   | Gap standar                          |
-| `--sp-6`  | 24px   | Section padding internal             |
-| `--sp-8`  | 32px   | Antar section                        |
-| `--sp-12` | 48px   | Section gap besar                    |
-| `--sp-16` | 64px   | Section padding vertikal utama       |
+| Token     | Nilai | Penggunaan                     |
+| --------- | ----- | ------------------------------ |
+| `--sp-1`  | 4px   | Gap antar elemen inline        |
+| `--sp-2`  | 8px   | Padding internal kecil         |
+| `--sp-3`  | 12px  | Padding card internal          |
+| `--sp-4`  | 16px  | Gap standar                    |
+| `--sp-6`  | 24px  | Section padding internal       |
+| `--sp-8`  | 32px  | Antar section                  |
+| `--sp-12` | 48px  | Section gap besar              |
+| `--sp-16` | 64px  | Section padding vertikal utama |
 
 ### 3.4 Corner Radius (Shape Consistency Lock)
 
 Satu sistem radius untuk seluruh halaman:
 
-| Elemen     | Radius  | Keterangan               |
-|------------|---------|--------------------------|
-| Card       | 12px    | Rounded lembut            |
-| Button     | 8px     | Sedikit lebih kecil       |
-| Input      | 8px     | Sama dengan button        |
-| Badge/Pill | 20px    | Full-pill untuk badge     |
-| Image      | 8px     | Konsisten dengan card     |
-| Avatar     | 50%     | Bulat penuh               |
+| Elemen     | Radius | Keterangan            |
+| ---------- | ------ | --------------------- |
+| Card       | 12px   | Rounded lembut        |
+| Button     | 8px    | Sedikit lebih kecil   |
+| Input      | 8px    | Sama dengan button    |
+| Badge/Pill | 20px   | Full-pill untuk badge |
+| Image      | 8px    | Konsisten dengan card |
+| Avatar     | 50%    | Bulat penuh           |
 
 ### 3.5 Shadow System
 
 Shadow di-tint ke warna warm, bukan hitam murni:
 
 ```css
---shadow-sm:   0 1px 3px rgba(61, 46, 34, 0.06);
---shadow-md:   0 4px 12px rgba(61, 46, 34, 0.08);
---shadow-lg:   0 8px 24px rgba(61, 46, 34, 0.10);
+--shadow-sm: 0 1px 3px rgba(61, 46, 34, 0.06);
+--shadow-md: 0 4px 12px rgba(61, 46, 34, 0.08);
+--shadow-lg: 0 8px 24px rgba(61, 46, 34, 0.1);
 --shadow-hover: 0 8px 28px rgba(61, 46, 34, 0.14);
 ```
 
@@ -178,17 +190,17 @@ Shadow di-tint ke warna warm, bukan hitam murni:
 
 ### 4.2 Katalog Motion
 
-| Interaksi              | Efek                                                    | Durasi | Tujuan                  |
-|------------------------|---------------------------------------------------------|--------|-------------------------|
-| Hover card buku        | `translateY(-4px)` + shadow naik                        | 280ms  | Feedback: bisa diklik   |
-| Hover button           | Background color shift + `scale(1.02)`                  | 200ms  | Feedback: interaktif    |
-| Active button          | `scale(0.98)` + `translateY(1px)`                       | 100ms  | Feedback: ditekan       |
-| Page load cards        | Fade-in + `translateY(16px)` dengan stagger 60ms        | 500ms  | Hierarchy: urutan baca  |
-| Flash message masuk    | Slide dari atas + fade-in                               | 400ms  | State: notifikasi baru  |
-| Flash message keluar   | Fade-out ke atas setelah 4 detik                        | 300ms  | State: selesai dibaca   |
-| Rating star hover      | `scale(1.15)` + warna berubah                           | 150ms  | Feedback: pilihan aktif |
-| Navbar scroll          | Background opacity meningkat + subtle shadow            | 200ms  | Context: scrolled state |
-| Focus input            | Border warna berubah + subtle glow warm                 | 200ms  | Feedback: aktif          |
+| Interaksi            | Efek                                             | Durasi | Tujuan                  |
+| -------------------- | ------------------------------------------------ | ------ | ----------------------- |
+| Hover card buku      | `translateY(-4px)` + shadow naik                 | 280ms  | Feedback: bisa diklik   |
+| Hover button         | Background color shift + `scale(1.02)`           | 200ms  | Feedback: interaktif    |
+| Active button        | `scale(0.98)` + `translateY(1px)`                | 100ms  | Feedback: ditekan       |
+| Page load cards      | Fade-in + `translateY(16px)` dengan stagger 60ms | 500ms  | Hierarchy: urutan baca  |
+| Flash message masuk  | Slide dari atas + fade-in                        | 400ms  | State: notifikasi baru  |
+| Flash message keluar | Fade-out ke atas setelah 4 detik                 | 300ms  | State: selesai dibaca   |
+| Rating star hover    | `scale(1.15)` + warna berubah                    | 150ms  | Feedback: pilihan aktif |
+| Navbar scroll        | Background opacity meningkat + subtle shadow     | 200ms  | Context: scrolled state |
+| Focus input          | Border warna berubah + subtle glow warm          | 200ms  | Feedback: aktif         |
 
 ### 4.3 CSS Implementation Pattern
 
@@ -201,7 +213,9 @@ Shadow di-tint ke warna warm, bukan hitam murni:
 
 /* Reduced motion */
 @media (prefers-reduced-motion: reduce) {
-    *, *::before, *::after {
+    *,
+    *::before,
+    *::after {
         animation-duration: 0.01ms !important;
         animation-iteration-count: 1 !important;
         transition-duration: 0.01ms !important;
@@ -243,9 +257,9 @@ Shadow di-tint ke warna warm, bukan hitam murni:
 - **Konten kiri:** Logo "Bukuku" (teks, font Outfit bold, warna `--autumn-amber`)
 - **Konten tengah:** Link Home, genre dropdown (Bootstrap dropdown)
 - **Konten kanan:**
-  - Jika belum login: Button "Masuk" (outline style)
-  - Jika sudah login: Avatar circle dengan initial nama + dropdown (Profil, Ganti Password, Logout)
-  - Jika admin: tambahan link "Dashboard" sebelum dropdown
+    - Jika belum login: Button "Masuk" (outline style)
+    - Jika sudah login: Avatar circle dengan initial nama + dropdown (Profil, Ganti Password, Logout)
+    - Jika admin: tambahan link "Dashboard" sebelum dropdown
 - **Mobile:** Collapse ke hamburger menu (Bootstrap navbar-toggler)
 - **Class Bootstrap:** `navbar`, `navbar-expand-lg`, `fixed-top`
 
@@ -255,10 +269,10 @@ Shadow di-tint ke warna warm, bukan hitam murni:
 - **Background:** `--autumn-linen`
 - **Konten atas:** Logo "Bukuku Admin" dengan icon `bi-journal-bookmark-fill`
 - **Menu items:** Vertical nav pills, icon + label per item
-  - Dashboard (`bi-speedometer2`)
-  - Kelola Buku (`bi-book`)
-  - Kelola Genre (`bi-tags`)
-  - Kelola User (`bi-people`)
+    - Dashboard (`bi-speedometer2`)
+    - Kelola Buku (`bi-book`)
+    - Kelola Genre (`bi-tags`)
+    - Kelola User (`bi-people`)
 - **Konten bawah:** Username + tombol Logout
 - **Active state:** Background `--autumn-amber` dengan text putih
 - **Mobile:** Off-canvas dari kiri (Bootstrap offcanvas)
@@ -269,9 +283,9 @@ Shadow di-tint ke warna warm, bukan hitam murni:
 - **Background:** `--autumn-bark` (cokelat gelap)
 - **Text:** `--autumn-sand` (krem terang)
 - **Layout:** 3 kolom di desktop, stack di mobile
-  - Kolom 1: Logo + tagline pendek ("Temukan bacaan favoritmu")
-  - Kolom 2: Link navigasi (Home, Login, Profil)
-  - Kolom 3: Info singkat ("Dibuat dengan cinta untuk pecinta buku")
+    - Kolom 1: Logo + tagline pendek ("Temukan bacaan favoritmu")
+    - Kolom 2: Link navigasi (Home, Login, Profil)
+    - Kolom 3: Info singkat ("Dibuat dengan cinta untuk pecinta buku")
 - **Copyright:** Bottom bar tipis, `--autumn-dust` color
 - **Class Bootstrap:** `container`, `row`, `col-md-4`
 
@@ -281,11 +295,11 @@ Shadow di-tint ke warna warm, bukan hitam murni:
 - **Border:** 1px `--autumn-sand`
 - **Shadow:** `--shadow-sm`, meningkat ke `--shadow-hover` saat hover
 - **Layout:**
-  - Cover image (aspect ratio 2:3, `border-radius: 8px`, object-fit cover)
-  - Judul buku (H3, Outfit 500, max 2 baris dengan line-clamp)
-  - Author (Inter Tight, `--autumn-wood`)
-  - Genre badge (pill, background `--autumn-linen`, text `--autumn-wood`)
-  - Rating (bintang `--autumn-terracotta` + angka)
+    - Cover image (aspect ratio 2:3, `border-radius: 8px`, object-fit cover)
+    - Judul buku (H3, Outfit 500, max 2 baris dengan line-clamp)
+    - Author (Inter Tight, `--autumn-wood`)
+    - Genre badge (pill, background `--autumn-linen`, text `--autumn-wood`)
+    - Rating (bintang `--autumn-terracotta` + angka)
 - **Hover:** `translateY(-4px)` + shadow naik
 - **Class Bootstrap:** `card`, `card-body`, `border-0`
 - **Ukuran cover:** min-height 200px pada card grid
@@ -301,12 +315,12 @@ Shadow di-tint ke warna warm, bukan hitam murni:
 #### F. Form Styling
 
 - **Input/Select/Textarea:**
-  - Background: `--autumn-white`
-  - Border: 1px `--autumn-sand`
-  - Border-radius: 8px
-  - Padding: 12px 16px
-  - Focus: border `--autumn-amber` + box-shadow warm glow
-  - Placeholder: `--autumn-dust`
+    - Background: `--autumn-white`
+    - Border: 1px `--autumn-sand`
+    - Border-radius: 8px
+    - Padding: 12px 16px
+    - Focus: border `--autumn-amber` + box-shadow warm glow
+    - Placeholder: `--autumn-dust`
 - **Label:** `--autumn-bark`, Outfit 500, margin-bottom 6px
 - **Helper text:** `--autumn-dust`, Inter Tight 14px
 - **Error text:** `--autumn-rust`, Inter Tight 14px, di bawah input
@@ -314,13 +328,13 @@ Shadow di-tint ke warna warm, bukan hitam murni:
 
 #### G. Button Styles
 
-| Variant    | Background         | Text             | Hover                   | Penggunaan           |
-|------------|---------------------|------------------|-------------------------|----------------------|
-| Primary    | `--autumn-amber`   | `#FFFFFF`        | `--autumn-amber-light`  | CTA utama            |
-| Secondary  | `--autumn-linen`   | `--autumn-bark`  | `--autumn-sand`         | Aksi sekunder        |
-| Outline    | Transparent        | `--autumn-amber` | `--autumn-amber` bg 10% | Login, Cancel        |
-| Danger     | `--autumn-rust`    | `#FFFFFF`        | Darken 10%              | Hapus                |
-| Ghost      | Transparent        | `--autumn-wood`  | `--autumn-linen` bg     | Link-style button    |
+| Variant   | Background       | Text             | Hover                   | Penggunaan        |
+| --------- | ---------------- | ---------------- | ----------------------- | ----------------- |
+| Primary   | `--autumn-amber` | `#FFFFFF`        | `--autumn-amber-light`  | CTA utama         |
+| Secondary | `--autumn-linen` | `--autumn-bark`  | `--autumn-sand`         | Aksi sekunder     |
+| Outline   | Transparent      | `--autumn-amber` | `--autumn-amber` bg 10% | Login, Cancel     |
+| Danger    | `--autumn-rust`  | `#FFFFFF`        | Darken 10%              | Hapus             |
+| Ghost     | Transparent      | `--autumn-wood`  | `--autumn-linen` bg     | Link-style button |
 
 Semua button: `border-radius: 8px`, `padding: 10px 20px`, `font-weight: 500`, active state `scale(0.98)`.
 
@@ -359,26 +373,26 @@ Berikut adalah daftar semua halaman dan bagaimana masing-masing akan di-redesign
 **Detail desain:**
 
 1. **Hero mini** (hanya di homepage):
-   - Background: gradient lembut dari `--autumn-cream` ke `--autumn-linen`
-   - Heading: "Temukan Buku Favoritmu" (Outfit 600, `--autumn-bark`)
-   - Sub-text: "Jelajahi, review, dan simpan buku yang kamu suka." (Outfit 400, `--autumn-wood`, max 15 kata)
-   - Tidak ada CTA button di hero (search bar sudah cukup)
-   - Padding: `py-12` (48px) atas-bawah
+    - Background: gradient lembut dari `--autumn-cream` ke `--autumn-linen`
+    - Heading: "Temukan Buku Favoritmu" (Outfit 600, `--autumn-bark`)
+    - Sub-text: "Jelajahi, review, dan simpan buku yang kamu suka." (Outfit 400, `--autumn-wood`, max 15 kata)
+    - Tidak ada CTA button di hero (search bar sudah cukup)
+    - Padding: `py-12` (48px) atas-bawah
 
 2. **Search + Filter Bar:**
-   - Satu baris horizontal, dikelompokkan dalam card lembut
-   - Input search dengan icon `bi-search` di kiri
-   - Dropdown genre filter
-   - Tombol "Cari" primary
-   - Tombol "Reset" ghost (hanya muncul jika ada filter aktif)
-   - Class Bootstrap: `input-group`, `form-select`
+    - Satu baris horizontal, dikelompokkan dalam card lembut
+    - Input search dengan icon `bi-search` di kiri
+    - Dropdown genre filter
+    - Tombol "Cari" primary
+    - Tombol "Reset" ghost (hanya muncul jika ada filter aktif)
+    - Class Bootstrap: `input-group`, `form-select`
 
 3. **Book Grid:**
-   - Grid: `row row-cols-1 row-cols-sm-2 row-cols-lg-3 row-cols-xl-4 g-4`
-   - Setiap item: Card Buku (komponen D)
-   - Empty state: Ilustrasi ringan + teks "Belum ada buku yang cocok. Coba kata kunci lain."
-   - Stagger animation pada load
-   - Pagination: Bootstrap pagination style, centered, di bawah grid
+    - Grid: `row row-cols-1 row-cols-sm-2 row-cols-lg-3 row-cols-xl-4 g-4`
+    - Setiap item: Card Buku (komponen D)
+    - Empty state: Ilustrasi ringan + teks "Belum ada buku yang cocok. Coba kata kunci lain."
+    - Stagger animation pada load
+    - Pagination: Bootstrap pagination style, centered, di bawah grid
 
 ---
 
@@ -404,41 +418,41 @@ Berikut adalah daftar semua halaman dan bagaimana masing-masing akan di-redesign
 **Detail desain:**
 
 1. **Breadcrumb:**
-   - Style minimal, separator `/`, text `--autumn-dust`
-   - Active item: `--autumn-bark` bold
-   - Class Bootstrap: `breadcrumb`
+    - Style minimal, separator `/`, text `--autumn-dust`
+    - Active item: `--autumn-bark` bold
+    - Class Bootstrap: `breadcrumb`
 
 2. **Book Detail - 2 kolom:**
-   - Layout: `col-md-4` (cover) + `col-md-8` (info)
-   - **Cover:** Max-width 320px, shadow-md, border-radius 12px, aspect-ratio 2:3
-   - **Info panel:**
-     - Judul (H1, Outfit 600, 2rem)
-     - Author (Inter Tight, `--autumn-wood`, dengan icon `bi-pen`)
-     - Genre badge (pill)
-     - Tahun terbit + ISBN (satu baris, `--autumn-dust`)
-     - Rating display (bintang + angka besar)
-     - Deskripsi (Outfit 400, `--autumn-bark`, line-height 1.7)
-     - **Bookshelf actions** (jika login):
-       - Dropdown select status (Ingin Dibaca, Sedang Dibaca, Sudah Dibaca)
-       - Button "Simpan ke Rak" (primary)
-       - Button "Hapus dari Rak" (outline danger, jika sudah di rak)
-     - Jika belum login: Link halus "Masuk untuk menyimpan buku ini"
+    - Layout: `col-md-4` (cover) + `col-md-8` (info)
+    - **Cover:** Max-width 320px, shadow-md, border-radius 12px, aspect-ratio 2:3
+    - **Info panel:**
+        - Judul (H1, Outfit 600, 2rem)
+        - Author (Inter Tight, `--autumn-wood`, dengan icon `bi-pen`)
+        - Genre badge (pill)
+        - Tahun terbit + ISBN (satu baris, `--autumn-dust`)
+        - Rating display (bintang + angka besar)
+        - Deskripsi (Outfit 400, `--autumn-bark`, line-height 1.7)
+        - **Bookshelf actions** (jika login):
+            - Dropdown select status (Ingin Dibaca, Sedang Dibaca, Sudah Dibaca)
+            - Button "Simpan ke Rak" (primary)
+            - Button "Hapus dari Rak" (outline danger, jika sudah di rak)
+        - Jika belum login: Link halus "Masuk untuk menyimpan buku ini"
 
 3. **Review Section:**
-   - Heading: "Ulasan Pembaca" (H2)
-   - Jumlah review + rata-rata rating
-   - **Form tulis review** (jika login):
-     - Card dengan background `--autumn-linen`
-     - Interactive rating stars (klik untuk pilih 1-5)
-     - Textarea untuk komentar
-     - Button "Kirim Ulasan" (primary)
-   - **Daftar review:**
-     - Setiap review: card ringan (border-bottom saja, tanpa box)
-     - Avatar circle (initial nama), nama user, tanggal, rating stars
-     - Teks komentar
-     - Jika milik user login: button Edit (ghost) + Hapus (ghost danger)
-     - **Edit form:** Inline expand (bukan modal, bukan `<details>`), smooth open animation
-   - Empty state: "Belum ada ulasan. Jadilah yang pertama menulis ulasan."
+    - Heading: "Ulasan Pembaca" (H2)
+    - Jumlah review + rata-rata rating
+    - **Form tulis review** (jika login):
+        - Card dengan background `--autumn-linen`
+        - Interactive rating stars (klik untuk pilih 1-5)
+        - Textarea untuk komentar
+        - Button "Kirim Ulasan" (primary)
+    - **Daftar review:**
+        - Setiap review: card ringan (border-bottom saja, tanpa box)
+        - Avatar circle (initial nama), nama user, tanggal, rating stars
+        - Teks komentar
+        - Jika milik user login: button Edit (ghost) + Hapus (ghost danger)
+        - **Edit form:** Inline expand (bukan modal, bukan `<details>`), smooth open animation
+    - Empty state: "Belum ada ulasan. Jadilah yang pertama menulis ulasan."
 
 ---
 
@@ -460,9 +474,9 @@ Berikut adalah daftar semua halaman dan bagaimana masing-masing akan di-redesign
 **Detail desain:**
 
 - Header genre: Background `--autumn-linen`, padding generous
-  - Nama genre (H1)
-  - Sub-text: "{n} buku dalam genre ini"
-  - Breadcrumb: Home > Genre
+    - Nama genre (H1)
+    - Sub-text: "{n} buku dalam genre ini"
+    - Breadcrumb: Home > Genre
 - Book grid: identik dengan halaman Home
 - Link "Kembali ke semua buku" di bawah grid
 
@@ -534,20 +548,20 @@ Berikut adalah daftar semua halaman dan bagaimana masing-masing akan di-redesign
 **Detail desain:**
 
 1. **Profile Header:**
-   - Avatar besar (80px, circle, initial nama, background `--autumn-amber`)
-   - Nama user (H1)
-   - Email (Inter Tight, `--autumn-wood`)
-   - Role badge (jika admin, pill `--autumn-terracotta`)
-   - Link "Ganti Password" (outline button kecil)
+    - Avatar besar (80px, circle, initial nama, background `--autumn-amber`)
+    - Nama user (H1)
+    - Email (Inter Tight, `--autumn-wood`)
+    - Role badge (jika admin, pill `--autumn-terracotta`)
+    - Link "Ganti Password" (outline button kecil)
 
 2. **Bookshelf dengan Tabs:**
-   - 3 tab: "Sedang Dibaca", "Ingin Dibaca", "Sudah Dibaca"
-   - Tab styling: Bootstrap nav-tabs, custom ke autumn theme
-   - Active tab: border-bottom `--autumn-amber`
-   - Setiap tab berisi list buku (card horizontal: cover kecil + judul + author + link detail)
-   - Counter di setiap tab label: "Sedang Dibaca (3)"
-   - Empty state per tab: "Belum ada buku di rak ini."
-   - Class Bootstrap: `nav-tabs`, `tab-content`, `tab-pane`
+    - 3 tab: "Sedang Dibaca", "Ingin Dibaca", "Sudah Dibaca"
+    - Tab styling: Bootstrap nav-tabs, custom ke autumn theme
+    - Active tab: border-bottom `--autumn-amber`
+    - Setiap tab berisi list buku (card horizontal: cover kecil + judul + author + link detail)
+    - Counter di setiap tab label: "Sedang Dibaca (3)"
+    - Empty state per tab: "Belum ada buku di rak ini."
+    - Class Bootstrap: `nav-tabs`, `tab-content`, `tab-pane`
 
 ---
 
@@ -569,12 +583,12 @@ Berikut adalah daftar semua halaman dan bagaimana masing-masing akan di-redesign
 **Detail desain:**
 
 - **Stat Cards** (3 buah, horizontal):
-  - Total Buku (icon `bi-book`, warna `--autumn-amber`)
-  - Total User (icon `bi-people`, warna `--autumn-sage`)
-  - Total Review (icon `bi-chat-square-text`, warna `--autumn-terracotta`)
-  - Setiap card: icon besar + angka besar + label
-  - Background `--autumn-white`, border 1px `--autumn-sand`
-  - Class Bootstrap: `row`, `col-md-4`
+    - Total Buku (icon `bi-book`, warna `--autumn-amber`)
+    - Total User (icon `bi-people`, warna `--autumn-sage`)
+    - Total Review (icon `bi-chat-square-text`, warna `--autumn-terracotta`)
+    - Setiap card: icon besar + angka besar + label
+    - Background `--autumn-white`, border 1px `--autumn-sand`
+    - Class Bootstrap: `row`, `col-md-4`
 
 - **Quick Links:** Compact list ke Kelola Buku, Kelola Genre, Kelola User
 
@@ -676,13 +690,13 @@ Berikut adalah daftar semua halaman dan bagaimana masing-masing akan di-redesign
 
 Mengikuti breakpoint Bootstrap 5:
 
-| Breakpoint | Size    | Layout                            |
-|------------|---------|-----------------------------------|
-| xs         | < 576px | 1 kolom, stack semua               |
-| sm         | 576px+  | 2 kolom grid buku                  |
-| md         | 768px+  | Sidebar admin muncul               |
-| lg         | 992px+  | 3 kolom grid buku, navbar expand   |
-| xl         | 1200px+ | 4 kolom grid buku                  |
+| Breakpoint | Size    | Layout                           |
+| ---------- | ------- | -------------------------------- |
+| xs         | < 576px | 1 kolom, stack semua             |
+| sm         | 576px+  | 2 kolom grid buku                |
+| md         | 768px+  | Sidebar admin muncul             |
+| lg         | 992px+  | 3 kolom grid buku, navbar expand |
+| xl         | 1200px+ | 4 kolom grid buku                |
 
 ### 7.1 Mobile-Specific Rules
 
@@ -699,30 +713,30 @@ Mengikuti breakpoint Bootstrap 5:
 
 ### 8.1 File Baru
 
-| File                          | Deskripsi                                     |
-|-------------------------------|-----------------------------------------------|
-| `public/css/bukuku.css`       | Custom CSS theme autumn + animasi + overrides  |
+| File                    | Deskripsi                                     |
+| ----------------------- | --------------------------------------------- |
+| `public/css/bukuku.css` | Custom CSS theme autumn + animasi + overrides |
 
 ### 8.2 File yang Dimodifikasi
 
-| File                                               | Perubahan                                              |
-|----------------------------------------------------|--------------------------------------------------------|
-| `resources/views/layouts/app.blade.php`            | CDN links, navbar Bootstrap, footer, flash messages     |
-| `resources/views/layouts/admin.blade.php`          | CDN links, sidebar Bootstrap, offcanvas mobile          |
-| `resources/views/books/index.blade.php`            | Hero mini, search bar, book grid cards                  |
-| `resources/views/books/show.blade.php`             | 2-kolom layout, review cards, interactive elements      |
-| `resources/views/genres/show.blade.php`            | Genre header + book grid                                |
-| `resources/views/auth/login.blade.php`             | Centered card form                                      |
-| `resources/views/auth/change-password.blade.php`   | Centered card form                                      |
-| `resources/views/profile/index.blade.php`          | Profile header + tabbed bookshelf                       |
-| `resources/views/admin/dashboard.blade.php`        | Stat cards + quick links                                |
-| `resources/views/admin/books/index.blade.php`      | Bootstrap table + action buttons                        |
-| `resources/views/admin/books/create.blade.php`     | Styled form card                                        |
-| `resources/views/admin/books/edit.blade.php`       | Styled form card + cover preview                        |
-| `resources/views/admin/genres/index.blade.php`     | Bootstrap table                                         |
-| `resources/views/admin/genres/create.blade.php`    | Styled form card                                        |
-| `resources/views/admin/genres/edit.blade.php`      | Styled form card                                        |
-| `resources/views/admin/users/index.blade.php`      | Bootstrap table + role badges + delete modal            |
+| File                                             | Perubahan                                           |
+| ------------------------------------------------ | --------------------------------------------------- |
+| `resources/views/layouts/app.blade.php`          | CDN links, navbar Bootstrap, footer, flash messages |
+| `resources/views/layouts/admin.blade.php`        | CDN links, sidebar Bootstrap, offcanvas mobile      |
+| `resources/views/books/index.blade.php`          | Hero mini, search bar, book grid cards              |
+| `resources/views/books/show.blade.php`           | 2-kolom layout, review cards, interactive elements  |
+| `resources/views/genres/show.blade.php`          | Genre header + book grid                            |
+| `resources/views/auth/login.blade.php`           | Centered card form                                  |
+| `resources/views/auth/change-password.blade.php` | Centered card form                                  |
+| `resources/views/profile/index.blade.php`        | Profile header + tabbed bookshelf                   |
+| `resources/views/admin/dashboard.blade.php`      | Stat cards + quick links                            |
+| `resources/views/admin/books/index.blade.php`    | Bootstrap table + action buttons                    |
+| `resources/views/admin/books/create.blade.php`   | Styled form card                                    |
+| `resources/views/admin/books/edit.blade.php`     | Styled form card + cover preview                    |
+| `resources/views/admin/genres/index.blade.php`   | Bootstrap table                                     |
+| `resources/views/admin/genres/create.blade.php`  | Styled form card                                    |
+| `resources/views/admin/genres/edit.blade.php`    | Styled form card                                    |
+| `resources/views/admin/users/index.blade.php`    | Bootstrap table + role badges + delete modal        |
 
 ### 8.3 File yang TIDAK Diubah
 
@@ -841,4 +855,3 @@ Implementasi dilakukan bertahap agar bisa diperiksa per fase:
 - [x] Responsive di semua breakpoint (xs sampai xl)
 - [x] Tidak ada build process yang dibutuhkan (CDN only)
 - [x] Semua fitur fungsional dari PRD utama tetap berjalan normal
-
