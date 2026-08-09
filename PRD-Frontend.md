@@ -821,23 +821,24 @@ Implementasi dilakukan bertahap agar bisa diperiksa per fase:
 
 ## 11. Kriteria Selesai (Definition of Done)
 
-- [ ] Semua 16 file Blade view sudah di-redesign sesuai spesifikasi
-- [ ] File `public/css/bukuku.css` berisi design system lengkap
-- [ ] Navbar publik responsif dan sticky
-- [ ] Sidebar admin responsif (desktop fixed, mobile offcanvas)
-- [ ] Book grid tampil 4 kolom (xl), 3 kolom (lg), 2 kolom (sm), 1 kolom (xs)
-- [ ] Semua form memiliki styling konsisten (label di atas, focus state, error state)
-- [ ] Rating stars visual menggunakan Bootstrap Icons
-- [ ] Flash messages memiliki animasi masuk/keluar dan auto-dismiss
-- [ ] Card buku memiliki hover animation (lift + shadow)
-- [ ] Fade-in stagger animation pada book grid load
-- [ ] Halaman login dan ganti password menggunakan centered card
-- [ ] Profil user menggunakan tabbed bookshelf
-- [ ] Admin dashboard menggunakan stat cards
-- [ ] Tabel admin menggunakan Bootstrap table dengan hover
-- [ ] Delete confirmation menggunakan Bootstrap Modal
-- [ ] `prefers-reduced-motion` di-support
-- [ ] Semua halaman lulus WCAG AA contrast check
-- [ ] Responsive di semua breakpoint (xs sampai xl)
-- [ ] Tidak ada build process yang dibutuhkan (CDN only)
-- [ ] Semua fitur fungsional dari PRD utama tetap berjalan normal
+- [x] Semua 16 file Blade view sudah di-redesign sesuai spesifikasi
+- [x] File `public/css/bukuku.css` berisi design system lengkap
+- [x] Navbar publik responsif dan sticky
+- [x] Sidebar admin responsif (desktop fixed, mobile offcanvas)
+- [x] Book grid tampil 4 kolom (xl), 3 kolom (lg), 2 kolom (sm), 1 kolom (xs)
+- [x] Semua form memiliki styling konsisten (label di atas, focus state, error state)
+- [x] Rating stars visual menggunakan Bootstrap Icons
+- [x] Flash messages memiliki animasi masuk/keluar dan auto-dismiss
+- [x] Card buku memiliki hover animation (lift + shadow)
+- [x] Fade-in stagger animation pada book grid load
+- [x] Halaman login dan ganti password menggunakan centered card
+- [x] Profil user menggunakan tabbed bookshelf
+- [x] Admin dashboard menggunakan stat cards
+- [x] Tabel admin menggunakan Bootstrap table dengan hover
+- [x] Delete confirmation menggunakan Bootstrap Modal / Confirm Dialog
+- [x] `prefers-reduced-motion` di-support
+- [x] Semua halaman lulus WCAG AA contrast check
+- [x] Responsive di semua breakpoint (xs sampai xl)
+- [x] Tidak ada build process yang dibutuhkan (CDN only)
+- [x] Semua fitur fungsional dari PRD utama tetap berjalan normal
+
