@@ -11,6 +11,7 @@ AI mengimplementasikan fitur inti secara efisien (hemat token), sementara penger
 konfigurasi lokal/sekali jalan dilakukan manual oleh developer (pemilik proyek).
 
 **Prinsip pembagian kerja:**
+
 - **[MANUAL]** = dikerjakan oleh developer sendiri di terminal/editor, tidak perlu AI generate kode.
 - **[AI]** = diminta ke AI untuk digenerate/ditulis, karena butuh logika/kode spesifik.
 
@@ -37,10 +38,12 @@ konfigurasi lokal/sekali jalan dilakukan manual oleh developer (pemilik proyek).
 Jalankan langkah-langkah berikut di terminal **sebelum** `php artisan migrate`:
 
 **Langkah 1 — Hapus migration bawaan Laravel yang tidak diperlukan:**
+
 ```
 database/migrations/0001_01_01_000001_create_cache_table.php
 database/migrations/0001_01_01_000002_create_jobs_table.php
 ```
+
 > File `0001_01_01_000000_create_users_table.php` **JANGAN dihapus** — akan diedit di Langkah 2.
 
 **Langkah 2 — Edit file `create_users_table` yang sudah ada:**
@@ -49,6 +52,7 @@ Buka `database/migrations/0001_01_01_000000_create_users_table.php`, ganti selur
 atau `remember_token` karena tidak menggunakan Breeze.
 
 **Langkah 3 — Buat file migration baru (satu per satu):**
+
 ```bash
 php artisan make:migration create_genres_table
 php artisan make:migration create_books_table
@@ -59,6 +63,7 @@ php artisan make:migration create_bookshelves_table
 **Langkah 4 — Salin kode dari Bagian 3.1.B ke masing-masing file yang baru dibuat.**
 
 **Langkah 5 — Jalankan migration:**
+
 ```bash
 php artisan migrate
 ```
@@ -70,6 +75,7 @@ php artisan migrate
 ---
 
 **File: `create_users_table` (edit yang sudah ada)**
+
 ```php
 public function up(): void
 {
@@ -92,6 +98,7 @@ public function down(): void
 ---
 
 **File: `create_genres_table`**
+
 ```php
 public function up(): void
 {
@@ -112,6 +119,7 @@ public function down(): void
 ---
 
 **File: `create_books_table`**
+
 ```php
 public function up(): void
 {
@@ -138,6 +146,7 @@ public function down(): void
 ---
 
 **File: `create_reviews_table`**
+
 ```php
 public function up(): void
 {
@@ -160,6 +169,7 @@ public function down(): void
 ---
 
 **File: `create_bookshelves_table`**
+
 ```php
 public function up(): void
 {
@@ -183,23 +193,25 @@ public function down(): void
 ### 3.2 Model & Relasi — **[AI]**
 
 **[MANUAL]** Buat file model dengan perintah berikut:
+
 ```bash
 php artisan make:model Genre
 php artisan make:model Book
 php artisan make:model Review
 php artisan make:model Bookshelf
 ```
+
 > Model `User` sudah ada bawaan Laravel, tidak perlu dibuat ulang.
 
 **[AI]** Isi kode relasi di masing-masing model:
 
-| Model | Relasi & Method |
-|---|---|
-| `Book` | `belongsTo(Genre)`, `hasMany(Review)`, `hasMany(Bookshelf)`, method `recalculateAverageRating()` |
-| `Genre` | `hasMany(Book)` |
-| `Review` | `belongsTo(User)`, `belongsTo(Book)` |
-| `User` | `hasMany(Review)`, `hasMany(Bookshelf)`, method `isAdmin(): bool` |
-| `Bookshelf` | `belongsTo(User)`, `belongsTo(Book)` |
+| Model       | Relasi & Method                                                                                  |
+| ----------- | ------------------------------------------------------------------------------------------------ |
+| `Book`      | `belongsTo(Genre)`, `hasMany(Review)`, `hasMany(Bookshelf)`, method `recalculateAverageRating()` |
+| `Genre`     | `hasMany(Book)`                                                                                  |
+| `Review`    | `belongsTo(User)`, `belongsTo(Book)`                                                             |
+| `User`      | `hasMany(Review)`, `hasMany(Bookshelf)`, method `isAdmin(): bool`                                |
+| `Bookshelf` | `belongsTo(User)`, `belongsTo(Book)`                                                             |
 
 Tambahkan `$fillable` di setiap model sesuai kolom tabel masing-masing.
 
@@ -217,6 +229,7 @@ semua review yang ada, lalu simpan. Panggil method ini dari model `Review` via E
 > dari kode `UserSeeder.php` tanpa perlu membuka database.
 
 **[MANUAL]** Buat file seeder:
+
 ```bash
 php artisan make:seeder GenreSeeder
 php artisan make:seeder BookSeeder
@@ -236,33 +249,35 @@ php artisan make:seeder ReviewSeeder
   dengan `Hash::make()` tapi nilainya tertulis eksplisit di kode sehingga developer tahu
   password apa yang harus dipakai. Gunakan format array seperti ini:
 
-  ```php
-  use Illuminate\Support\Facades\Hash;
+    ```php
+    use Illuminate\Support\Facades\Hash;
 
-  $users = [
-      ['name' => 'Admin Bukuku',   'email' => 'admin@bukuku.test', 'password' => Hash::make('password'),  'role' => 'admin'],
-      ['name' => 'Budi Santoso',   'email' => 'budi@test.com',     'password' => Hash::make('budi123'),   'role' => 'user'],
-      ['name' => 'Siti Rahayu',    'email' => 'siti@test.com',     'password' => Hash::make('siti123'),   'role' => 'user'],
-      ['name' => 'Ahmad Fauzi',    'email' => 'ahmad@test.com',    'password' => Hash::make('ahmad123'),  'role' => 'user'],
-      ['name' => 'Dewi Lestari',   'email' => 'dewi@test.com',     'password' => Hash::make('dewi123'),   'role' => 'user'],
-      ['name' => 'Rizky Pratama',  'email' => 'rizky@test.com',    'password' => Hash::make('rizky123'),  'role' => 'user'],
-      ['name' => 'Nurul Hidayah',  'email' => 'nurul@test.com',    'password' => Hash::make('nurul123'),  'role' => 'user'],
-      ['name' => 'Fajar Wijaya',   'email' => 'fajar@test.com',    'password' => Hash::make('fajar123'),  'role' => 'user'],
-      ['name' => 'Rina Anggraini', 'email' => 'rina@test.com',     'password' => Hash::make('rina123'),   'role' => 'user'],
-  ];
-  ```
+    $users = [
+        ['name' => 'Admin Bukuku',   'email' => 'admin@bukuku.test', 'password' => Hash::make('password'),  'role' => 'admin'],
+        ['name' => 'Budi Santoso',   'email' => 'budi@test.com',     'password' => Hash::make('budi123'),   'role' => 'user'],
+        ['name' => 'Siti Rahayu',    'email' => 'siti@test.com',     'password' => Hash::make('siti123'),   'role' => 'user'],
+        ['name' => 'Ahmad Fauzi',    'email' => 'ahmad@test.com',    'password' => Hash::make('ahmad123'),  'role' => 'user'],
+        ['name' => 'Dewi Lestari',   'email' => 'dewi@test.com',     'password' => Hash::make('dewi123'),   'role' => 'user'],
+        ['name' => 'Rizky Pratama',  'email' => 'rizky@test.com',    'password' => Hash::make('rizky123'),  'role' => 'user'],
+        ['name' => 'Nurul Hidayah',  'email' => 'nurul@test.com',    'password' => Hash::make('nurul123'),  'role' => 'user'],
+        ['name' => 'Fajar Wijaya',   'email' => 'fajar@test.com',    'password' => Hash::make('fajar123'),  'role' => 'user'],
+        ['name' => 'Rina Anggraini', 'email' => 'rina@test.com',     'password' => Hash::make('rina123'),   'role' => 'user'],
+    ];
+    ```
 
-  AI boleh mengganti nama/email selama tetap natural dan mudah diingat. Pola passwordnya
-  bebas, yang penting terlihat jelas di kode (contoh: `namauser123`).
+    AI boleh mengganti nama/email selama tetap natural dan mudah diingat. Pola passwordnya
+    bebas, yang penting terlihat jelas di kode (contoh: `namauser123`).
 
 - **`ReviewSeeder`**: generate 60 review acak dari user dummy ke buku acak, rating antara 1–5.
 
 **[AI]** Daftarkan seeder di `DatabaseSeeder.php` dengan urutan:
+
 ```
 GenreSeeder → BookSeeder → UserSeeder → ReviewSeeder
 ```
 
 **[MANUAL]** Jalankan seeder:
+
 ```bash
 php artisan db:seed
 ```
@@ -335,16 +350,17 @@ Table bookshelves {
 
 ### 4.1 Cara Kerja Autentikasi
 
-| Fitur | Mekanisme |
-|---|---|
-| **Login** | Cari user by email → verifikasi dengan `Hash::check($request->password, $user->password)` → simpan ke session jika cocok |
-| **Session** | Simpan `user_id`, `user_role`, `user_name` ke session saat login |
-| **Logout** | `session()->flush()` → redirect ke `/login` |
-| **Ganti Password** | Verifikasi email + password lama → update kolom `password` dengan password baru (plain text) |
+| Fitur              | Mekanisme                                                                                                                |
+| ------------------ | ------------------------------------------------------------------------------------------------------------------------ |
+| **Login**          | Cari user by email → verifikasi dengan `Hash::check($request->password, $user->password)` → simpan ke session jika cocok |
+| **Session**        | Simpan `user_id`, `user_role`, `user_name` ke session saat login                                                         |
+| **Logout**         | `session()->flush()` → redirect ke `/login`                                                                              |
+| **Ganti Password** | Verifikasi email + password lama → update kolom `password` dengan password baru (plain text)                             |
 
 ### 4.2 File yang Dibuat
 
 **[MANUAL]** Jalankan perintah berikut:
+
 ```bash
 php artisan make:controller AuthController
 php artisan make:middleware CheckLogin
@@ -361,6 +377,7 @@ php artisan make:middleware CheckAdmin
   redirect kembali dengan pesan sukses
 
 **[AI]** Isi `CheckLogin` middleware:
+
 ```
 Cek apakah session('user_id') ada.
   → Jika TIDAK ada: redirect ke '/login' dengan flash message 'Silakan login terlebih dahulu.'
@@ -370,6 +387,7 @@ Cek apakah session('user_id') ada.
 ```
 
 **[AI]** Isi `CheckAdmin` middleware:
+
 ```
 Cek apakah session('user_role') === 'admin'.
   → Jika BUKAN admin: redirect ke '/' dengan flash message 'Akses ditolak.'
@@ -381,6 +399,7 @@ Cek apakah session('user_role') === 'admin'.
 Daftarkan alias berikut agar bisa dipakai di `routes/web.php`:
 
 **Laravel 11+ (`bootstrap/app.php`):**
+
 ```php
 ->withMiddleware(function (Middleware $middleware) {
     $middleware->alias([
@@ -391,6 +410,7 @@ Daftarkan alias berikut agar bisa dipakai di `routes/web.php`:
 ```
 
 **Laravel 10 (`app/Http/Kernel.php`):**
+
 ```php
 protected $middlewareAliases = [
     // ... alias bawaan laravel ...
@@ -517,14 +537,14 @@ Route::middleware(['check.login', 'check.admin'])
 Buat dua layout utama:
 
 - **`resources/views/layouts/app.blade.php`** — layout publik:
-  - Navbar: nama website "Bukuku", link Home, link per genre, link Login (jika belum login) atau
-    nama user + link Profil + tombol Logout (jika sudah login).
-  - `@yield('content')` untuk slot konten utama.
-  - Footer sederhana.
+    - Navbar: nama website "Bukuku", link Home, link per genre, link Login (jika belum login) atau
+      nama user + link Profil + tombol Logout (jika sudah login).
+    - `@yield('content')` untuk slot konten utama.
+    - Footer sederhana.
 
 - **`resources/views/layouts/admin.blade.php`** — layout admin:
-  - Sidebar: link Dashboard, Kelola Buku, Kelola Genre, Lihat User, tombol Logout.
-  - `@yield('content')` untuk slot konten utama.
+    - Sidebar: link Dashboard, Kelola Buku, Kelola Genre, Lihat User, tombol Logout.
+    - `@yield('content')` untuk slot konten utama.
 
 Gunakan `@extends('layouts.app')`, `@section('content')`, `@endsection` di setiap view.
 **Tanpa CSS apapun** — cukup struktur HTML yang berfungsi.
@@ -621,15 +641,15 @@ Urutan yang disarankan:
 
 ## 8. Kriteria Selesai (Definition of Done)
 
-- [ ] User bisa login dengan email + password plain text, session tersimpan
-- [ ] User bisa logout, session dihapus sepenuhnya
-- [ ] User bisa ganti password dengan verifikasi email + password lama
-- [ ] User belum login tetap bisa lihat daftar & detail buku
-- [ ] User belum login yang mencoba review/tambah rak → diarahkan ke `/login`
-- [ ] User login bisa menulis, mengedit, menghapus review miliknya sendiri
-- [ ] Rating rata-rata buku ter-update otomatis saat review baru ditambah atau dihapus
-- [ ] User login bisa menambah/mengubah status rak buku di halaman profil
-- [ ] Admin bisa akses `/admin/dashboard` dan melakukan CRUD buku & genre
-- [ ] User biasa yang mencoba akses route `/admin/*` → diredirect ke `/` dengan pesan error
-- [ ] Database ter-seed: 10 genre, 30 buku, 1 admin + 8 user (email & password masing-masing terlihat di `UserSeeder.php`), 60 review
-- [ ] Semua halaman bisa diakses dan form berfungsi (HTML polos, belum ada styling)
+- [x] User bisa login dengan email + password plain text, session tersimpan
+- [x] User bisa logout, session dihapus sepenuhnya
+- [x] User bisa ganti password dengan verifikasi email + password lama
+- [x] User belum login tetap bisa lihat daftar & detail buku
+- [x] User belum login yang mencoba review/tambah rak → diarahkan ke `/login`
+- [x] User login bisa menulis, mengedit, menghapus review miliknya sendiri
+- [x] Rating rata-rata buku ter-update otomatis saat review baru ditambah atau dihapus
+- [x] User login bisa menambah/mengubah status rak buku di halaman profil
+- [x] Admin bisa akses `/admin/dashboard` dan melakukan CRUD buku & genre
+- [x] User biasa yang mencoba akses route `/admin/*` → diredirect ke `/` dengan pesan error
+- [x] Database ter-seed: 10 genre, 30 buku, 1 admin + 8 user (email & password masing-masing terlihat di `UserSeeder.php`), 60 review
+- [x] Semua halaman bisa diakses dan form berfungsi (HTML polos, belum ada styling)
