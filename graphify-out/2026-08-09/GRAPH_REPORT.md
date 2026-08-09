@@ -1,16 +1,16 @@
 # Graph Report - bukuku  (2026-08-09)
 
 ## Corpus Check
-- 47 files · ~13,060 words
+- 47 files · ~13,385 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 208 nodes · 230 edges · 37 communities (33 shown, 4 thin omitted)
-- Extraction: 96% EXTRACTED · 4% INFERRED · 0% AMBIGUOUS · INFERRED: 9 edges (avg confidence: 0.81)
+- 213 nodes · 243 edges · 36 communities (33 shown, 3 thin omitted)
+- Extraction: 95% EXTRACTED · 5% INFERRED · 0% AMBIGUOUS · INFERRED: 12 edges (avg confidence: 0.8)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `40eb4d12`
+- Built from commit: `d5a33560`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -19,29 +19,28 @@
 - scripts
 - devDependencies
 - User
-- CheckAdmin.php
-- Book
+- AuthController
+- Illuminate\Database\Seeder
 - require-dev
 - config
 - AppServiceProvider
 - TestCase
 - Bukuku
-- AuthController
 - ExampleTest
 - Agentic Development with Laravel Boost
 - UserFactory
 
 ## God Nodes (most connected - your core abstractions)
-1. `User` - 10 edges
+1. `User` - 13 edges
 2. `scripts` - 9 edges
 3. `Book` - 8 edges
 4. `require-dev` - 8 edges
-5. `setup` - 7 edges
-6. `Review` - 6 edges
-7. `Genre` - 5 edges
-8. `config` - 5 edges
-9. `Bookshelf` - 4 edges
-10. `AppServiceProvider` - 4 edges
+5. `AuthController` - 7 edges
+6. `setup` - 7 edges
+7. `Review` - 6 edges
+8. `Genre` - 5 edges
+9. `config` - 5 edges
+10. `Bookshelf` - 4 edges
 
 ## Surprising Connections (you probably didn't know these)
 - `Laravel Tech Stack` --semantically_similar_to--> `About Laravel Framework`  [INFERRED] [semantically similar]
@@ -54,7 +53,7 @@
 ## Import Cycles
 - None detected.
 
-## Communities (37 total, 4 thin omitted)
+## Communities (36 total, 3 thin omitted)
 
 ### Community 0 - "composer.json"
 Cohesion: 0.08
@@ -69,16 +68,16 @@ Cohesion: 0.11
 Nodes (17): concurrently, laravel-vite-plugin, devDependencies, concurrently, laravel-vite-plugin, tailwindcss, @tailwindcss/vite, vite (+9 more)
 
 ### Community 3 - "User"
-Cohesion: 0.12
-Nodes (10): Genre, User, DatabaseSeeder, GenreSeeder, UserSeder, Illuminate\Database\Eloquent\Factories\HasFactory, Illuminate\Database\Eloquent\Relations\HasMany, Illuminate\Database\Seeder (+2 more)
+Cohesion: 0.23
+Nodes (5): User, Illuminate\Database\Eloquent\Factories\HasFactory, Illuminate\Database\Eloquent\Relations\HasMany, Illuminate\Foundation\Auth\User, Illuminate\Notifications\Notifiable
 
-### Community 5 - "CheckAdmin.php"
-Cohesion: 0.44
-Nodes (5): CheckAdmin, CheckLogin, Closure, Illuminate\Http\Request, Symfony\Component\HttpFoundation\Response
+### Community 5 - "AuthController"
+Cohesion: 0.18
+Nodes (7): AuthController, Controller, CheckAdmin, CheckLogin, Closure, Illuminate\Http\Request, Symfony\Component\HttpFoundation\Response
 
-### Community 6 - "Book"
-Cohesion: 0.16
-Nodes (8): Book, Bookshelf, Review, BookSeder, ReviewSeder, Factory, Illuminate\Database\Eloquent\Model, Illuminate\Database\Eloquent\Relations\BelongsTo
+### Community 6 - "Illuminate\Database\Seeder"
+Cohesion: 0.10
+Nodes (13): Book, Bookshelf, Genre, Review, BookSeder, DatabaseSeeder, GenreSeeder, ReviewSeder (+5 more)
 
 ### Community 7 - "require-dev"
 Cohesion: 0.25
@@ -103,19 +102,19 @@ Nodes (3): UserFactory, Illuminate\Database\Eloquent\Factories\Factory, static
 ## Knowledge Gaps
 - **59 isolated node(s):** `$schema`, `name`, `type`, `description`, `laravel` (+54 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **4 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **3 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `scripts` connect `scripts` to `composer.json`?**
-  _High betweenness centrality (0.060) - this node is a cross-community bridge._
+  _High betweenness centrality (0.057) - this node is a cross-community bridge._
+- **Why does `User` connect `User` to `AuthController`, `Illuminate\Database\Seeder`?**
+  _High betweenness centrality (0.030) - this node is a cross-community bridge._
 - **Why does `require-dev` connect `require-dev` to `composer.json`?**
-  _High betweenness centrality (0.020) - this node is a cross-community bridge._
-- **Why does `config` connect `config` to `composer.json`?**
-  _High betweenness centrality (0.017) - this node is a cross-community bridge._
-- **Are the 2 inferred relationships involving `User` (e.g. with `.run()` and `.run()`) actually correct?**
-  _`User` has 2 INFERRED edges - model-reasoned connections that need verification._
+  _High betweenness centrality (0.019) - this node is a cross-community bridge._
+- **Are the 5 inferred relationships involving `User` (e.g. with `.changePassword()` and `.login()`) actually correct?**
+  _`User` has 5 INFERRED edges - model-reasoned connections that need verification._
 - **Are the 2 inferred relationships involving `Book` (e.g. with `.run()` and `.run()`) actually correct?**
   _`Book` has 2 INFERRED edges - model-reasoned connections that need verification._
 - **What connects `$schema`, `name`, `type` to the rest of the system?**

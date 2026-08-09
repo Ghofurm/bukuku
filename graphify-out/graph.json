@@ -702,8 +702,8 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "composer_require_dev",
-      "community": 7,
-      "community_name": "require-dev",
+      "community": 0,
+      "community_name": "composer.json",
       "norm_label": "require-dev"
     },
     {
@@ -713,8 +713,8 @@
       "source_location": "L14",
       "_origin": "ast",
       "id": "composer_require_dev_fakerphp_faker",
-      "community": 7,
-      "community_name": "require-dev",
+      "community": 0,
+      "community_name": "composer.json",
       "norm_label": "fakerphp/faker"
     },
     {
@@ -724,8 +724,8 @@
       "source_location": "L15",
       "_origin": "ast",
       "id": "composer_require_dev_laravel_pail",
-      "community": 7,
-      "community_name": "require-dev",
+      "community": 0,
+      "community_name": "composer.json",
       "norm_label": "laravel/pail"
     },
     {
@@ -735,8 +735,8 @@
       "source_location": "L16",
       "_origin": "ast",
       "id": "composer_require_dev_laravel_pao",
-      "community": 7,
-      "community_name": "require-dev",
+      "community": 0,
+      "community_name": "composer.json",
       "norm_label": "laravel/pao"
     },
     {
@@ -746,8 +746,8 @@
       "source_location": "L17",
       "_origin": "ast",
       "id": "composer_require_dev_laravel_pint",
-      "community": 7,
-      "community_name": "require-dev",
+      "community": 0,
+      "community_name": "composer.json",
       "norm_label": "laravel/pint"
     },
     {
@@ -757,8 +757,8 @@
       "source_location": "L18",
       "_origin": "ast",
       "id": "composer_require_dev_mockery_mockery",
-      "community": 7,
-      "community_name": "require-dev",
+      "community": 0,
+      "community_name": "composer.json",
       "norm_label": "mockery/mockery"
     },
     {
@@ -768,8 +768,8 @@
       "source_location": "L19",
       "_origin": "ast",
       "id": "composer_require_dev_nunomaduro_collision",
-      "community": 7,
-      "community_name": "require-dev",
+      "community": 0,
+      "community_name": "composer.json",
       "norm_label": "nunomaduro/collision"
     },
     {
@@ -779,8 +779,8 @@
       "source_location": "L20",
       "_origin": "ast",
       "id": "composer_require_dev_phpunit_phpunit",
-      "community": 7,
-      "community_name": "require-dev",
+      "community": 0,
+      "community_name": "composer.json",
       "norm_label": "phpunit/phpunit"
     },
     {
@@ -1795,8 +1795,8 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "database_seeders_userseder",
-      "community": 6,
-      "community_name": "Illuminate\\Database\\Seeder",
+      "community": 3,
+      "community_name": "User",
       "norm_label": "userseder.php"
     },
     {
@@ -1808,8 +1808,8 @@
       "_callable_class": true,
       "_origin": "ast",
       "id": "database_seeders_userseder_userseder",
-      "community": 6,
-      "community_name": "Illuminate\\Database\\Seeder",
+      "community": 3,
+      "community_name": "User",
       "norm_label": "userseder"
     },
     {
@@ -1820,8 +1820,8 @@
       "_callable": true,
       "_origin": "ast",
       "id": "database_seeders_userseder_userseder_run",
-      "community": 6,
-      "community_name": "Illuminate\\Database\\Seeder",
+      "community": 3,
+      "community_name": "User",
       "norm_label": ".run()"
     },
     {
@@ -2073,8 +2073,8 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "routes_web",
-      "community": 35,
-      "community_name": "web.php",
+      "community": 5,
+      "community_name": "AuthController",
       "norm_label": "web.php"
     },
     {
@@ -2493,6 +2493,18 @@
       "_origin": "ast",
       "source": "app_http_controllers_authcontroller",
       "target": "app_models_user",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "routes/web.php",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "routes_web",
+      "target": "app_http_controllers_authcontroller",
       "confidence_score": 1.0
     },
     {
@@ -5235,5 +5247,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "d5a3356014c924bccdda4bfe49e951e01c20ce0e"
+  "built_at_commit": "fb4f034aaed93cfe387cb24eb08d56fc0e2b02a5"
 }
