@@ -47,8 +47,8 @@
       "_callable": true,
       "_origin": "ast",
       "id": "app_http_controllers_admin_adminbookcontroller_adminbookcontroller_create",
-      "community": 7,
-      "community_name": "Genre",
+      "community": 3,
+      "community_name": "Book",
       "norm_label": ".create()"
     },
     {
@@ -106,8 +106,8 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "app_http_controllers_admin_admindashboardcontroller",
-      "community": 5,
-      "community_name": "User",
+      "community": 7,
+      "community_name": "Genre",
       "norm_label": "admindashboardcontroller.php"
     },
     {
@@ -119,8 +119,8 @@
       "_callable_class": true,
       "_origin": "ast",
       "id": "app_http_controllers_admin_admindashboardcontroller_admindashboardcontroller",
-      "community": 5,
-      "community_name": "User",
+      "community": 7,
+      "community_name": "Genre",
       "norm_label": "admindashboardcontroller"
     },
     {
@@ -131,8 +131,8 @@
       "_callable": true,
       "_origin": "ast",
       "id": "app_http_controllers_admin_admindashboardcontroller_admindashboardcontroller_index",
-      "community": 5,
-      "community_name": "User",
+      "community": 7,
+      "community_name": "Genre",
       "norm_label": ".index()"
     },
     {
@@ -249,8 +249,8 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "app_http_controllers_admin_adminusercontroller",
-      "community": 5,
-      "community_name": "User",
+      "community": 7,
+      "community_name": "Genre",
       "norm_label": "adminusercontroller.php"
     },
     {
@@ -262,8 +262,8 @@
       "_callable_class": true,
       "_origin": "ast",
       "id": "app_http_controllers_admin_adminusercontroller_adminusercontroller",
-      "community": 5,
-      "community_name": "User",
+      "community": 7,
+      "community_name": "Genre",
       "norm_label": "adminusercontroller"
     },
     {
@@ -274,8 +274,8 @@
       "_callable": true,
       "_origin": "ast",
       "id": "app_http_controllers_admin_adminusercontroller_adminusercontroller_index",
-      "community": 5,
-      "community_name": "User",
+      "community": 7,
+      "community_name": "Genre",
       "norm_label": ".index()"
     },
     {
@@ -286,8 +286,8 @@
       "_callable": true,
       "_origin": "ast",
       "id": "app_http_controllers_admin_adminusercontroller_adminusercontroller_destroy",
-      "community": 5,
-      "community_name": "User",
+      "community": 7,
+      "community_name": "Genre",
       "norm_label": ".destroy()"
     },
     {
@@ -430,7 +430,7 @@
       "_origin": "ast",
       "id": "app_http_controllers_bookshelfcontroller",
       "community": 4,
-      "community_name": "Illuminate\\Http\\Request",
+      "community_name": "Review",
       "norm_label": "bookshelfcontroller.php"
     },
     {
@@ -443,7 +443,7 @@
       "_origin": "ast",
       "id": "app_http_controllers_bookshelfcontroller_bookshelfcontroller",
       "community": 4,
-      "community_name": "Illuminate\\Http\\Request",
+      "community_name": "Review",
       "norm_label": "bookshelfcontroller"
     },
     {
@@ -455,7 +455,7 @@
       "_origin": "ast",
       "id": "app_http_controllers_bookshelfcontroller_bookshelfcontroller_store",
       "community": 4,
-      "community_name": "Illuminate\\Http\\Request",
+      "community_name": "Review",
       "norm_label": ".store()"
     },
     {
@@ -467,7 +467,7 @@
       "_origin": "ast",
       "id": "app_http_controllers_bookshelfcontroller_bookshelfcontroller_destroy",
       "community": 4,
-      "community_name": "Illuminate\\Http\\Request",
+      "community_name": "Review",
       "norm_label": ".destroy()"
     },
     {
@@ -477,8 +477,8 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "app_http_controllers_controller",
-      "community": 5,
-      "community_name": "User",
+      "community": 7,
+      "community_name": "Genre",
       "norm_label": "controller.php"
     },
     {
@@ -490,8 +490,8 @@
       "_callable_class": true,
       "_origin": "ast",
       "id": "app_http_controllers_controller_controller",
-      "community": 5,
-      "community_name": "User",
+      "community": 7,
+      "community_name": "Genre",
       "norm_label": "controller"
     },
     {
@@ -537,8 +537,8 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "app_http_controllers_profilecontroller",
-      "community": 5,
-      "community_name": "User",
+      "community": 7,
+      "community_name": "Genre",
       "norm_label": "profilecontroller.php"
     },
     {
@@ -550,8 +550,8 @@
       "_callable_class": true,
       "_origin": "ast",
       "id": "app_http_controllers_profilecontroller_profilecontroller",
-      "community": 5,
-      "community_name": "User",
+      "community": 7,
+      "community_name": "Genre",
       "norm_label": "profilecontroller"
     },
     {
@@ -562,8 +562,8 @@
       "_callable": true,
       "_origin": "ast",
       "id": "app_http_controllers_profilecontroller_profilecontroller_index",
-      "community": 5,
-      "community_name": "User",
+      "community": 7,
+      "community_name": "Genre",
       "norm_label": ".index()"
     },
     {
@@ -574,7 +574,7 @@
       "_origin": "ast",
       "id": "app_http_controllers_reviewcontroller",
       "community": 4,
-      "community_name": "Illuminate\\Http\\Request",
+      "community_name": "Review",
       "norm_label": "reviewcontroller.php"
     },
     {
@@ -587,7 +587,7 @@
       "_origin": "ast",
       "id": "app_http_controllers_reviewcontroller_reviewcontroller",
       "community": 4,
-      "community_name": "Illuminate\\Http\\Request",
+      "community_name": "Review",
       "norm_label": "reviewcontroller"
     },
     {
@@ -599,7 +599,7 @@
       "_origin": "ast",
       "id": "app_http_controllers_reviewcontroller_reviewcontroller_store",
       "community": 4,
-      "community_name": "Illuminate\\Http\\Request",
+      "community_name": "Review",
       "norm_label": ".store()"
     },
     {
@@ -611,7 +611,7 @@
       "_origin": "ast",
       "id": "app_http_controllers_reviewcontroller_reviewcontroller_update",
       "community": 4,
-      "community_name": "Illuminate\\Http\\Request",
+      "community_name": "Review",
       "norm_label": ".update()"
     },
     {
@@ -623,7 +623,7 @@
       "_origin": "ast",
       "id": "app_http_controllers_reviewcontroller_reviewcontroller_destroy",
       "community": 4,
-      "community_name": "Illuminate\\Http\\Request",
+      "community_name": "Review",
       "norm_label": ".destroy()"
     },
     {
@@ -633,8 +633,8 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "app_http_middleware_checkadmin",
-      "community": 12,
-      "community_name": "CheckLogin.php",
+      "community": 5,
+      "community_name": "User",
       "norm_label": "checkadmin.php"
     },
     {
@@ -646,8 +646,8 @@
       "_callable_class": true,
       "_origin": "ast",
       "id": "app_http_middleware_checkadmin_checkadmin",
-      "community": 12,
-      "community_name": "CheckLogin.php",
+      "community": 5,
+      "community_name": "User",
       "norm_label": "checkadmin"
     },
     {
@@ -658,8 +658,8 @@
       "_callable": true,
       "_origin": "ast",
       "id": "app_http_middleware_checkadmin_checkadmin_handle",
-      "community": 12,
-      "community_name": "CheckLogin.php",
+      "community": 5,
+      "community_name": "User",
       "norm_label": ".handle()"
     },
     {
@@ -669,8 +669,8 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "app_http_middleware_checklogin",
-      "community": 12,
-      "community_name": "CheckLogin.php",
+      "community": 5,
+      "community_name": "User",
       "norm_label": "checklogin.php"
     },
     {
@@ -682,8 +682,8 @@
       "_callable_class": true,
       "_origin": "ast",
       "id": "app_http_middleware_checklogin_checklogin",
-      "community": 12,
-      "community_name": "CheckLogin.php",
+      "community": 5,
+      "community_name": "User",
       "norm_label": "checklogin"
     },
     {
@@ -694,8 +694,8 @@
       "_callable": true,
       "_origin": "ast",
       "id": "app_http_middleware_checklogin_checklogin_handle",
-      "community": 12,
-      "community_name": "CheckLogin.php",
+      "community": 5,
+      "community_name": "User",
       "norm_label": ".handle()"
     },
     {
@@ -731,7 +731,7 @@
       "_origin": "ast",
       "id": "app_models_book_book_genre",
       "community": 4,
-      "community_name": "Illuminate\\Http\\Request",
+      "community_name": "Review",
       "norm_label": ".genre()"
     },
     {
@@ -778,7 +778,7 @@
       "_origin": "ast",
       "id": "app_models_bookshelf",
       "community": 4,
-      "community_name": "Illuminate\\Http\\Request",
+      "community_name": "Review",
       "norm_label": "bookshelf.php"
     },
     {
@@ -791,7 +791,7 @@
       "_origin": "ast",
       "id": "app_models_bookshelf_bookshelf",
       "community": 4,
-      "community_name": "Illuminate\\Http\\Request",
+      "community_name": "Review",
       "norm_label": "bookshelf"
     },
     {
@@ -803,7 +803,7 @@
       "_origin": "ast",
       "id": "app_models_bookshelf_bookshelf_user",
       "community": 4,
-      "community_name": "Illuminate\\Http\\Request",
+      "community_name": "Review",
       "norm_label": ".user()"
     },
     {
@@ -815,7 +815,7 @@
       "_origin": "ast",
       "id": "app_models_bookshelf_bookshelf_book",
       "community": 4,
-      "community_name": "Illuminate\\Http\\Request",
+      "community_name": "Review",
       "norm_label": ".book()"
     },
     {
@@ -862,7 +862,7 @@
       "_origin": "ast",
       "id": "app_models_review",
       "community": 4,
-      "community_name": "Illuminate\\Http\\Request",
+      "community_name": "Review",
       "norm_label": "review.php"
     },
     {
@@ -875,7 +875,7 @@
       "_origin": "ast",
       "id": "app_models_review_review",
       "community": 4,
-      "community_name": "Illuminate\\Http\\Request",
+      "community_name": "Review",
       "norm_label": "review"
     },
     {
@@ -899,7 +899,7 @@
       "_origin": "ast",
       "id": "app_models_review_review_user",
       "community": 4,
-      "community_name": "Illuminate\\Http\\Request",
+      "community_name": "Review",
       "norm_label": ".user()"
     },
     {
@@ -911,7 +911,7 @@
       "_origin": "ast",
       "id": "app_models_review_review_book",
       "community": 4,
-      "community_name": "Illuminate\\Http\\Request",
+      "community_name": "Review",
       "norm_label": ".book()"
     },
     {
@@ -2753,8 +2753,8 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "routes_web",
-      "community": 5,
-      "community_name": "User",
+      "community": 7,
+      "community_name": "Genre",
       "norm_label": "web.php"
     },
     {
@@ -2865,14 +2865,674 @@
       "norm_label": "vite.config.js"
     },
     {
+      "label": "PRD-Frontend.md",
+      "file_type": "document",
+      "source_file": "PRD-Frontend.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "prd_frontend",
+      "community": 12,
+      "community_name": "PRD-Frontend \u2014 Redesign UI Bukuku",
+      "norm_label": "prd-frontend.md"
+    },
+    {
+      "label": "PRD-Frontend \u2014 Redesign UI Bukuku",
+      "file_type": "document",
+      "source_file": "PRD-Frontend.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "prd_frontend_prd_frontend_redesign_ui_bukuku",
+      "community": 12,
+      "community_name": "PRD-Frontend \u2014 Redesign UI Bukuku",
+      "norm_label": "prd-frontend \u2014 redesign ui bukuku"
+    },
+    {
+      "label": "0. Design Read",
+      "file_type": "document",
+      "source_file": "PRD-Frontend.md",
+      "source_location": "L3",
+      "_origin": "ast",
+      "id": "prd_frontend_0_design_read",
+      "community": 12,
+      "community_name": "PRD-Frontend \u2014 Redesign UI Bukuku",
+      "norm_label": "0. design read"
+    },
+    {
+      "label": "Dial Settings (dari design-taste-frontend skill)",
+      "file_type": "document",
+      "source_file": "PRD-Frontend.md",
+      "source_location": "L7",
+      "_origin": "ast",
+      "id": "prd_frontend_dial_settings_dari_design_taste_frontend_skill",
+      "community": 12,
+      "community_name": "PRD-Frontend \u2014 Redesign UI Bukuku",
+      "norm_label": "dial settings (dari design-taste-frontend skill)"
+    },
+    {
+      "label": "1. Latar Belakang dan Tujuan",
+      "file_type": "document",
+      "source_file": "PRD-Frontend.md",
+      "source_location": "L17",
+      "_origin": "ast",
+      "id": "prd_frontend_1_latar_belakang_dan_tujuan",
+      "community": 12,
+      "community_name": "PRD-Frontend \u2014 Redesign UI Bukuku",
+      "norm_label": "1. latar belakang dan tujuan"
+    },
+    {
+      "label": "1.1 Kondisi Saat Ini",
+      "file_type": "document",
+      "source_file": "PRD-Frontend.md",
+      "source_location": "L19",
+      "_origin": "ast",
+      "id": "prd_frontend_1_1_kondisi_saat_ini",
+      "community": 12,
+      "community_name": "PRD-Frontend \u2014 Redesign UI Bukuku",
+      "norm_label": "1.1 kondisi saat ini"
+    },
+    {
+      "label": "1.2 Tujuan Redesign",
+      "file_type": "document",
+      "source_file": "PRD-Frontend.md",
+      "source_location": "L25",
+      "_origin": "ast",
+      "id": "prd_frontend_1_2_tujuan_redesign",
+      "community": 12,
+      "community_name": "PRD-Frontend \u2014 Redesign UI Bukuku",
+      "norm_label": "1.2 tujuan redesign"
+    },
+    {
+      "label": "1.3 Batasan Teknis",
+      "file_type": "document",
+      "source_file": "PRD-Frontend.md",
+      "source_location": "L36",
+      "_origin": "ast",
+      "id": "prd_frontend_1_3_batasan_teknis",
+      "community": 12,
+      "community_name": "PRD-Frontend \u2014 Redesign UI Bukuku",
+      "norm_label": "1.3 batasan teknis"
+    },
+    {
+      "label": "2. Tech Stack Frontend",
+      "file_type": "document",
+      "source_file": "PRD-Frontend.md",
+      "source_location": "L45",
+      "_origin": "ast",
+      "id": "prd_frontend_2_tech_stack_frontend",
+      "community": 12,
+      "community_name": "PRD-Frontend \u2014 Redesign UI Bukuku",
+      "norm_label": "2. tech stack frontend"
+    },
+    {
+      "label": "2.1 CDN yang Digunakan",
+      "file_type": "document",
+      "source_file": "PRD-Frontend.md",
+      "source_location": "L55",
+      "_origin": "ast",
+      "id": "prd_frontend_2_1_cdn_yang_digunakan",
+      "community": 12,
+      "community_name": "PRD-Frontend \u2014 Redesign UI Bukuku",
+      "norm_label": "2.1 cdn yang digunakan"
+    },
+    {
+      "label": "3. Sistem Desain: Autumn Warm",
+      "file_type": "document",
+      "source_file": "PRD-Frontend.md",
+      "source_location": "L92",
+      "_origin": "ast",
+      "id": "prd_frontend_3_sistem_desain_autumn_warm",
+      "community": 12,
+      "community_name": "PRD-Frontend \u2014 Redesign UI Bukuku",
+      "norm_label": "3. sistem desain: autumn warm"
+    },
+    {
+      "label": "3.1 Palet Warna",
+      "file_type": "document",
+      "source_file": "PRD-Frontend.md",
+      "source_location": "L94",
+      "_origin": "ast",
+      "id": "prd_frontend_3_1_palet_warna",
+      "community": 12,
+      "community_name": "PRD-Frontend \u2014 Redesign UI Bukuku",
+      "norm_label": "3.1 palet warna"
+    },
+    {
+      "label": "3.2 Tipografi",
+      "file_type": "document",
+      "source_file": "PRD-Frontend.md",
+      "source_location": "L129",
+      "_origin": "ast",
+      "id": "prd_frontend_3_2_tipografi",
+      "community": 12,
+      "community_name": "PRD-Frontend \u2014 Redesign UI Bukuku",
+      "norm_label": "3.2 tipografi"
+    },
+    {
+      "label": "3.3 Spacing System",
+      "file_type": "document",
+      "source_file": "PRD-Frontend.md",
+      "source_location": "L141",
+      "_origin": "ast",
+      "id": "prd_frontend_3_3_spacing_system",
+      "community": 12,
+      "community_name": "PRD-Frontend \u2014 Redesign UI Bukuku",
+      "norm_label": "3.3 spacing system"
+    },
+    {
+      "label": "3.4 Corner Radius (Shape Consistency Lock)",
+      "file_type": "document",
+      "source_file": "PRD-Frontend.md",
+      "source_location": "L156",
+      "_origin": "ast",
+      "id": "prd_frontend_3_4_corner_radius_shape_consistency_lock",
+      "community": 12,
+      "community_name": "PRD-Frontend \u2014 Redesign UI Bukuku",
+      "norm_label": "3.4 corner radius (shape consistency lock)"
+    },
+    {
+      "label": "3.5 Shadow System",
+      "file_type": "document",
+      "source_file": "PRD-Frontend.md",
+      "source_location": "L169",
+      "_origin": "ast",
+      "id": "prd_frontend_3_5_shadow_system",
+      "community": 12,
+      "community_name": "PRD-Frontend \u2014 Redesign UI Bukuku",
+      "norm_label": "3.5 shadow system"
+    },
+    {
+      "label": "4. Animasi dan Motion",
+      "file_type": "document",
+      "source_file": "PRD-Frontend.md",
+      "source_location": "L182",
+      "_origin": "ast",
+      "id": "prd_frontend_4_animasi_dan_motion",
+      "community": 12,
+      "community_name": "PRD-Frontend \u2014 Redesign UI Bukuku",
+      "norm_label": "4. animasi dan motion"
+    },
+    {
+      "label": "4.1 Prinsip Motion",
+      "file_type": "document",
+      "source_file": "PRD-Frontend.md",
+      "source_location": "L184",
+      "_origin": "ast",
+      "id": "prd_frontend_4_1_prinsip_motion",
+      "community": 12,
+      "community_name": "PRD-Frontend \u2014 Redesign UI Bukuku",
+      "norm_label": "4.1 prinsip motion"
+    },
+    {
+      "label": "4.2 Katalog Motion",
+      "file_type": "document",
+      "source_file": "PRD-Frontend.md",
+      "source_location": "L191",
+      "_origin": "ast",
+      "id": "prd_frontend_4_2_katalog_motion",
+      "community": 12,
+      "community_name": "PRD-Frontend \u2014 Redesign UI Bukuku",
+      "norm_label": "4.2 katalog motion"
+    },
+    {
+      "label": "4.3 CSS Implementation Pattern",
+      "file_type": "document",
+      "source_file": "PRD-Frontend.md",
+      "source_location": "L205",
+      "_origin": "ast",
+      "id": "prd_frontend_4_3_css_implementation_pattern",
+      "community": 12,
+      "community_name": "PRD-Frontend \u2014 Redesign UI Bukuku",
+      "norm_label": "4.3 css implementation pattern"
+    },
+    {
+      "label": "5. Komponen UI dan Mapping ke Halaman",
+      "file_type": "document",
+      "source_file": "PRD-Frontend.md",
+      "source_location": "L249",
+      "_origin": "ast",
+      "id": "prd_frontend_5_komponen_ui_dan_mapping_ke_halaman",
+      "community": 12,
+      "community_name": "PRD-Frontend \u2014 Redesign UI Bukuku",
+      "norm_label": "5. komponen ui dan mapping ke halaman"
+    },
+    {
+      "label": "5.1 Komponen Shared (digunakan di banyak halaman)",
+      "file_type": "document",
+      "source_file": "PRD-Frontend.md",
+      "source_location": "L251",
+      "_origin": "ast",
+      "id": "prd_frontend_5_1_komponen_shared_digunakan_di_banyak_halaman",
+      "community": 12,
+      "community_name": "PRD-Frontend \u2014 Redesign UI Bukuku",
+      "norm_label": "5.1 komponen shared (digunakan di banyak halaman)"
+    },
+    {
+      "label": "A. Navbar Publik",
+      "file_type": "document",
+      "source_file": "PRD-Frontend.md",
+      "source_location": "L253",
+      "_origin": "ast",
+      "id": "prd_frontend_a_navbar_publik",
+      "community": 12,
+      "community_name": "PRD-Frontend \u2014 Redesign UI Bukuku",
+      "norm_label": "a. navbar publik"
+    },
+    {
+      "label": "B. Sidebar Admin",
+      "file_type": "document",
+      "source_file": "PRD-Frontend.md",
+      "source_location": "L266",
+      "_origin": "ast",
+      "id": "prd_frontend_b_sidebar_admin",
+      "community": 12,
+      "community_name": "PRD-Frontend \u2014 Redesign UI Bukuku",
+      "norm_label": "b. sidebar admin"
+    },
+    {
+      "label": "C. Footer Publik",
+      "file_type": "document",
+      "source_file": "PRD-Frontend.md",
+      "source_location": "L281",
+      "_origin": "ast",
+      "id": "prd_frontend_c_footer_publik",
+      "community": 12,
+      "community_name": "PRD-Frontend \u2014 Redesign UI Bukuku",
+      "norm_label": "c. footer publik"
+    },
+    {
+      "label": "D. Card Buku",
+      "file_type": "document",
+      "source_file": "PRD-Frontend.md",
+      "source_location": "L292",
+      "_origin": "ast",
+      "id": "prd_frontend_d_card_buku",
+      "community": 12,
+      "community_name": "PRD-Frontend \u2014 Redesign UI Bukuku",
+      "norm_label": "d. card buku"
+    },
+    {
+      "label": "E. Flash Message / Alert",
+      "file_type": "document",
+      "source_file": "PRD-Frontend.md",
+      "source_location": "L307",
+      "_origin": "ast",
+      "id": "prd_frontend_e_flash_message_alert",
+      "community": 12,
+      "community_name": "PRD-Frontend \u2014 Redesign UI Bukuku",
+      "norm_label": "e. flash message / alert"
+    },
+    {
+      "label": "F. Form Styling",
+      "file_type": "document",
+      "source_file": "PRD-Frontend.md",
+      "source_location": "L315",
+      "_origin": "ast",
+      "id": "prd_frontend_f_form_styling",
+      "community": 12,
+      "community_name": "PRD-Frontend \u2014 Redesign UI Bukuku",
+      "norm_label": "f. form styling"
+    },
+    {
+      "label": "G. Button Styles",
+      "file_type": "document",
+      "source_file": "PRD-Frontend.md",
+      "source_location": "L329",
+      "_origin": "ast",
+      "id": "prd_frontend_g_button_styles",
+      "community": 12,
+      "community_name": "PRD-Frontend \u2014 Redesign UI Bukuku",
+      "norm_label": "g. button styles"
+    },
+    {
+      "label": "H. Rating Stars",
+      "file_type": "document",
+      "source_file": "PRD-Frontend.md",
+      "source_location": "L341",
+      "_origin": "ast",
+      "id": "prd_frontend_h_rating_stars",
+      "community": 12,
+      "community_name": "PRD-Frontend \u2014 Redesign UI Bukuku",
+      "norm_label": "h. rating stars"
+    },
+    {
+      "label": "5.2 Mapping Halaman ke Komponen",
+      "file_type": "document",
+      "source_file": "PRD-Frontend.md",
+      "source_location": "L352",
+      "_origin": "ast",
+      "id": "prd_frontend_5_2_mapping_halaman_ke_komponen",
+      "community": 34,
+      "community_name": "5.2 Mapping Halaman ke Komponen",
+      "norm_label": "5.2 mapping halaman ke komponen"
+    },
+    {
+      "label": "Halaman 1: Home / Daftar Buku (`/`)",
+      "file_type": "document",
+      "source_file": "PRD-Frontend.md",
+      "source_location": "L358",
+      "_origin": "ast",
+      "id": "prd_frontend_halaman_1_home_daftar_buku",
+      "community": 34,
+      "community_name": "5.2 Mapping Halaman ke Komponen",
+      "norm_label": "halaman 1: home / daftar buku (`/`)"
+    },
+    {
+      "label": "Halaman 2: Detail Buku (`/books/{book}`)",
+      "file_type": "document",
+      "source_file": "PRD-Frontend.md",
+      "source_location": "L399",
+      "_origin": "ast",
+      "id": "prd_frontend_halaman_2_detail_buku_books_book",
+      "community": 34,
+      "community_name": "5.2 Mapping Halaman ke Komponen",
+      "norm_label": "halaman 2: detail buku (`/books/{book}`)"
+    },
+    {
+      "label": "Halaman 3: Genre (`/genres/{genre}`)",
+      "file_type": "document",
+      "source_file": "PRD-Frontend.md",
+      "source_location": "L459",
+      "_origin": "ast",
+      "id": "prd_frontend_halaman_3_genre_genres_genre",
+      "community": 34,
+      "community_name": "5.2 Mapping Halaman ke Komponen",
+      "norm_label": "halaman 3: genre (`/genres/{genre}`)"
+    },
+    {
+      "label": "Halaman 4: Login (`/login`)",
+      "file_type": "document",
+      "source_file": "PRD-Frontend.md",
+      "source_location": "L485",
+      "_origin": "ast",
+      "id": "prd_frontend_halaman_4_login_login",
+      "community": 34,
+      "community_name": "5.2 Mapping Halaman ke Komponen",
+      "norm_label": "halaman 4: login (`/login`)"
+    },
+    {
+      "label": "Halaman 5: Ganti Password (`/change-password`)",
+      "file_type": "document",
+      "source_file": "PRD-Frontend.md",
+      "source_location": "L511",
+      "_origin": "ast",
+      "id": "prd_frontend_halaman_5_ganti_password_change_password",
+      "community": 34,
+      "community_name": "5.2 Mapping Halaman ke Komponen",
+      "norm_label": "halaman 5: ganti password (`/change-password`)"
+    },
+    {
+      "label": "Halaman 6: Profil User (`/profile`)",
+      "file_type": "document",
+      "source_file": "PRD-Frontend.md",
+      "source_location": "L534",
+      "_origin": "ast",
+      "id": "prd_frontend_halaman_6_profil_user_profile",
+      "community": 34,
+      "community_name": "5.2 Mapping Halaman ke Komponen",
+      "norm_label": "halaman 6: profil user (`/profile`)"
+    },
+    {
+      "label": "Halaman 7: Admin Dashboard (`/admin/dashboard`)",
+      "file_type": "document",
+      "source_file": "PRD-Frontend.md",
+      "source_location": "L568",
+      "_origin": "ast",
+      "id": "prd_frontend_halaman_7_admin_dashboard_admin_dashboard",
+      "community": 34,
+      "community_name": "5.2 Mapping Halaman ke Komponen",
+      "norm_label": "halaman 7: admin dashboard (`/admin/dashboard`)"
+    },
+    {
+      "label": "Halaman 8-10: Admin CRUD Buku (`/admin/books/*`)",
+      "file_type": "document",
+      "source_file": "PRD-Frontend.md",
+      "source_location": "L597",
+      "_origin": "ast",
+      "id": "prd_frontend_halaman_8_10_admin_crud_buku_admin_books",
+      "community": 34,
+      "community_name": "5.2 Mapping Halaman ke Komponen",
+      "norm_label": "halaman 8-10: admin crud buku (`/admin/books/*`)"
+    },
+    {
+      "label": "Halaman 11-13: Admin CRUD Genre (`/admin/genres/*`)",
+      "file_type": "document",
+      "source_file": "PRD-Frontend.md",
+      "source_location": "L622",
+      "_origin": "ast",
+      "id": "prd_frontend_halaman_11_13_admin_crud_genre_admin_genres",
+      "community": 34,
+      "community_name": "5.2 Mapping Halaman ke Komponen",
+      "norm_label": "halaman 11-13: admin crud genre (`/admin/genres/*`)"
+    },
+    {
+      "label": "Halaman 14: Admin Kelola User (`/admin/users`)",
+      "file_type": "document",
+      "source_file": "PRD-Frontend.md",
+      "source_location": "L633",
+      "_origin": "ast",
+      "id": "prd_frontend_halaman_14_admin_kelola_user_admin_users",
+      "community": 34,
+      "community_name": "5.2 Mapping Halaman ke Komponen",
+      "norm_label": "halaman 14: admin kelola user (`/admin/users`)"
+    },
+    {
+      "label": "6. Layout System",
+      "file_type": "document",
+      "source_file": "PRD-Frontend.md",
+      "source_location": "L645",
+      "_origin": "ast",
+      "id": "prd_frontend_6_layout_system",
+      "community": 12,
+      "community_name": "PRD-Frontend \u2014 Redesign UI Bukuku",
+      "norm_label": "6. layout system"
+    },
+    {
+      "label": "6.1 Layout Publik (`layouts/app.blade.php`)",
+      "file_type": "document",
+      "source_file": "PRD-Frontend.md",
+      "source_location": "L647",
+      "_origin": "ast",
+      "id": "prd_frontend_6_1_layout_publik_layouts_app_blade_php",
+      "community": 12,
+      "community_name": "PRD-Frontend \u2014 Redesign UI Bukuku",
+      "norm_label": "6.1 layout publik (`layouts/app.blade.php`)"
+    },
+    {
+      "label": "6.2 Layout Admin (`layouts/admin.blade.php`)",
+      "file_type": "document",
+      "source_file": "PRD-Frontend.md",
+      "source_location": "L668",
+      "_origin": "ast",
+      "id": "prd_frontend_6_2_layout_admin_layouts_admin_blade_php",
+      "community": 12,
+      "community_name": "PRD-Frontend \u2014 Redesign UI Bukuku",
+      "norm_label": "6.2 layout admin (`layouts/admin.blade.php`)"
+    },
+    {
+      "label": "7. Responsive Breakpoints",
+      "file_type": "document",
+      "source_file": "PRD-Frontend.md",
+      "source_location": "L689",
+      "_origin": "ast",
+      "id": "prd_frontend_7_responsive_breakpoints",
+      "community": 12,
+      "community_name": "PRD-Frontend \u2014 Redesign UI Bukuku",
+      "norm_label": "7. responsive breakpoints"
+    },
+    {
+      "label": "7.1 Mobile-Specific Rules",
+      "file_type": "document",
+      "source_file": "PRD-Frontend.md",
+      "source_location": "L701",
+      "_origin": "ast",
+      "id": "prd_frontend_7_1_mobile_specific_rules",
+      "community": 12,
+      "community_name": "PRD-Frontend \u2014 Redesign UI Bukuku",
+      "norm_label": "7.1 mobile-specific rules"
+    },
+    {
+      "label": "8. File yang Akan Dimodifikasi",
+      "file_type": "document",
+      "source_file": "PRD-Frontend.md",
+      "source_location": "L712",
+      "_origin": "ast",
+      "id": "prd_frontend_8_file_yang_akan_dimodifikasi",
+      "community": 12,
+      "community_name": "PRD-Frontend \u2014 Redesign UI Bukuku",
+      "norm_label": "8. file yang akan dimodifikasi"
+    },
+    {
+      "label": "8.1 File Baru",
+      "file_type": "document",
+      "source_file": "PRD-Frontend.md",
+      "source_location": "L714",
+      "_origin": "ast",
+      "id": "prd_frontend_8_1_file_baru",
+      "community": 12,
+      "community_name": "PRD-Frontend \u2014 Redesign UI Bukuku",
+      "norm_label": "8.1 file baru"
+    },
+    {
+      "label": "8.2 File yang Dimodifikasi",
+      "file_type": "document",
+      "source_file": "PRD-Frontend.md",
+      "source_location": "L720",
+      "_origin": "ast",
+      "id": "prd_frontend_8_2_file_yang_dimodifikasi",
+      "community": 12,
+      "community_name": "PRD-Frontend \u2014 Redesign UI Bukuku",
+      "norm_label": "8.2 file yang dimodifikasi"
+    },
+    {
+      "label": "8.3 File yang TIDAK Diubah",
+      "file_type": "document",
+      "source_file": "PRD-Frontend.md",
+      "source_location": "L741",
+      "_origin": "ast",
+      "id": "prd_frontend_8_3_file_yang_tidak_diubah",
+      "community": 12,
+      "community_name": "PRD-Frontend \u2014 Redesign UI Bukuku",
+      "norm_label": "8.3 file yang tidak diubah"
+    },
+    {
+      "label": "9. Urutan Implementasi",
+      "file_type": "document",
+      "source_file": "PRD-Frontend.md",
+      "source_location": "L752",
+      "_origin": "ast",
+      "id": "prd_frontend_9_urutan_implementasi",
+      "community": 12,
+      "community_name": "PRD-Frontend \u2014 Redesign UI Bukuku",
+      "norm_label": "9. urutan implementasi"
+    },
+    {
+      "label": "Fase 1: Foundation (3 file)",
+      "file_type": "document",
+      "source_file": "PRD-Frontend.md",
+      "source_location": "L756",
+      "_origin": "ast",
+      "id": "prd_frontend_fase_1_foundation_3_file",
+      "community": 12,
+      "community_name": "PRD-Frontend \u2014 Redesign UI Bukuku",
+      "norm_label": "fase 1: foundation (3 file)"
+    },
+    {
+      "label": "Fase 2: Halaman Publik Utama (3 file)",
+      "file_type": "document",
+      "source_file": "PRD-Frontend.md",
+      "source_location": "L766",
+      "_origin": "ast",
+      "id": "prd_frontend_fase_2_halaman_publik_utama_3_file",
+      "community": 12,
+      "community_name": "PRD-Frontend \u2014 Redesign UI Bukuku",
+      "norm_label": "fase 2: halaman publik utama (3 file)"
+    },
+    {
+      "label": "Fase 3: Auth dan Profil (3 file)",
+      "file_type": "document",
+      "source_file": "PRD-Frontend.md",
+      "source_location": "L776",
+      "_origin": "ast",
+      "id": "prd_frontend_fase_3_auth_dan_profil_3_file",
+      "community": 12,
+      "community_name": "PRD-Frontend \u2014 Redesign UI Bukuku",
+      "norm_label": "fase 3: auth dan profil (3 file)"
+    },
+    {
+      "label": "Fase 4: Admin Panel (7 file)",
+      "file_type": "document",
+      "source_file": "PRD-Frontend.md",
+      "source_location": "L786",
+      "_origin": "ast",
+      "id": "prd_frontend_fase_4_admin_panel_7_file",
+      "community": 12,
+      "community_name": "PRD-Frontend \u2014 Redesign UI Bukuku",
+      "norm_label": "fase 4: admin panel (7 file)"
+    },
+    {
+      "label": "10. Aturan dan Larangan",
+      "file_type": "document",
+      "source_file": "PRD-Frontend.md",
+      "source_location": "L803",
+      "_origin": "ast",
+      "id": "prd_frontend_10_aturan_dan_larangan",
+      "community": 12,
+      "community_name": "PRD-Frontend \u2014 Redesign UI Bukuku",
+      "norm_label": "10. aturan dan larangan"
+    },
+    {
+      "label": "10.1 Yang HARUS Dilakukan",
+      "file_type": "document",
+      "source_file": "PRD-Frontend.md",
+      "source_location": "L805",
+      "_origin": "ast",
+      "id": "prd_frontend_10_1_yang_harus_dilakukan",
+      "community": 12,
+      "community_name": "PRD-Frontend \u2014 Redesign UI Bukuku",
+      "norm_label": "10.1 yang harus dilakukan"
+    },
+    {
+      "label": "10.2 Yang DILARANG",
+      "file_type": "document",
+      "source_file": "PRD-Frontend.md",
+      "source_location": "L816",
+      "_origin": "ast",
+      "id": "prd_frontend_10_2_yang_dilarang",
+      "community": 12,
+      "community_name": "PRD-Frontend \u2014 Redesign UI Bukuku",
+      "norm_label": "10.2 yang dilarang"
+    },
+    {
+      "label": "10.3 Konsistensi",
+      "file_type": "document",
+      "source_file": "PRD-Frontend.md",
+      "source_location": "L826",
+      "_origin": "ast",
+      "id": "prd_frontend_10_3_konsistensi",
+      "community": 12,
+      "community_name": "PRD-Frontend \u2014 Redesign UI Bukuku",
+      "norm_label": "10.3 konsistensi"
+    },
+    {
+      "label": "11. Kriteria Selesai (Definition of Done)",
+      "file_type": "document",
+      "source_file": "PRD-Frontend.md",
+      "source_location": "L836",
+      "_origin": "ast",
+      "id": "prd_frontend_11_kriteria_selesai_definition_of_done",
+      "community": 12,
+      "community_name": "PRD-Frontend \u2014 Redesign UI Bukuku",
+      "norm_label": "11. kriteria selesai (definition of done)"
+    },
+    {
       "label": "Illuminate\\Http\\Request",
       "file_type": "code",
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
       "id": "illuminate_http_request",
-      "community": 4,
-      "community_name": "Illuminate\\Http\\Request",
+      "community": 5,
+      "community_name": "User",
       "norm_label": "illuminate\\http\\request"
     },
     {
@@ -2882,8 +3542,8 @@
       "source_location": "",
       "_origin": "ast",
       "id": "closure",
-      "community": 12,
-      "community_name": "CheckLogin.php",
+      "community": 5,
+      "community_name": "User",
       "norm_label": "closure"
     },
     {
@@ -2893,8 +3553,8 @@
       "source_location": "",
       "_origin": "ast",
       "id": "symfony_component_httpfoundation_response",
-      "community": 12,
-      "community_name": "CheckLogin.php",
+      "community": 5,
+      "community_name": "User",
       "norm_label": "symfony\\component\\httpfoundation\\response"
     },
     {
@@ -2905,7 +3565,7 @@
       "_origin": "ast",
       "id": "illuminate_database_eloquent_model",
       "community": 4,
-      "community_name": "Illuminate\\Http\\Request",
+      "community_name": "Review",
       "norm_label": "illuminate\\database\\eloquent\\model"
     },
     {
@@ -2916,7 +3576,7 @@
       "_origin": "ast",
       "id": "illuminate_database_eloquent_relations_belongsto",
       "community": 4,
-      "community_name": "Illuminate\\Http\\Request",
+      "community_name": "Review",
       "norm_label": "illuminate\\database\\eloquent\\relations\\belongsto"
     },
     {
@@ -7198,6 +7858,655 @@
       "confidence_score": 1.0
     },
     {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "PRD-Frontend.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "prd_frontend",
+      "target": "prd_frontend_prd_frontend_redesign_ui_bukuku",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "PRD-Frontend.md",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "prd_frontend_prd_frontend_redesign_ui_bukuku",
+      "target": "prd_frontend_0_design_read",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "PRD-Frontend.md",
+      "source_location": "L803",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "prd_frontend_prd_frontend_redesign_ui_bukuku",
+      "target": "prd_frontend_10_aturan_dan_larangan",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "PRD-Frontend.md",
+      "source_location": "L836",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "prd_frontend_prd_frontend_redesign_ui_bukuku",
+      "target": "prd_frontend_11_kriteria_selesai_definition_of_done",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "PRD-Frontend.md",
+      "source_location": "L17",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "prd_frontend_prd_frontend_redesign_ui_bukuku",
+      "target": "prd_frontend_1_latar_belakang_dan_tujuan",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "PRD-Frontend.md",
+      "source_location": "L45",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "prd_frontend_prd_frontend_redesign_ui_bukuku",
+      "target": "prd_frontend_2_tech_stack_frontend",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "PRD-Frontend.md",
+      "source_location": "L92",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "prd_frontend_prd_frontend_redesign_ui_bukuku",
+      "target": "prd_frontend_3_sistem_desain_autumn_warm",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "PRD-Frontend.md",
+      "source_location": "L182",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "prd_frontend_prd_frontend_redesign_ui_bukuku",
+      "target": "prd_frontend_4_animasi_dan_motion",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "PRD-Frontend.md",
+      "source_location": "L249",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "prd_frontend_prd_frontend_redesign_ui_bukuku",
+      "target": "prd_frontend_5_komponen_ui_dan_mapping_ke_halaman",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "PRD-Frontend.md",
+      "source_location": "L645",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "prd_frontend_prd_frontend_redesign_ui_bukuku",
+      "target": "prd_frontend_6_layout_system",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "PRD-Frontend.md",
+      "source_location": "L689",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "prd_frontend_prd_frontend_redesign_ui_bukuku",
+      "target": "prd_frontend_7_responsive_breakpoints",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "PRD-Frontend.md",
+      "source_location": "L712",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "prd_frontend_prd_frontend_redesign_ui_bukuku",
+      "target": "prd_frontend_8_file_yang_akan_dimodifikasi",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "PRD-Frontend.md",
+      "source_location": "L752",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "prd_frontend_prd_frontend_redesign_ui_bukuku",
+      "target": "prd_frontend_9_urutan_implementasi",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "PRD-Frontend.md",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "prd_frontend_0_design_read",
+      "target": "prd_frontend_dial_settings_dari_design_taste_frontend_skill",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "PRD-Frontend.md",
+      "source_location": "L19",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "prd_frontend_1_latar_belakang_dan_tujuan",
+      "target": "prd_frontend_1_1_kondisi_saat_ini",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "PRD-Frontend.md",
+      "source_location": "L25",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "prd_frontend_1_latar_belakang_dan_tujuan",
+      "target": "prd_frontend_1_2_tujuan_redesign",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "PRD-Frontend.md",
+      "source_location": "L36",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "prd_frontend_1_latar_belakang_dan_tujuan",
+      "target": "prd_frontend_1_3_batasan_teknis",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "PRD-Frontend.md",
+      "source_location": "L55",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "prd_frontend_2_tech_stack_frontend",
+      "target": "prd_frontend_2_1_cdn_yang_digunakan",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "PRD-Frontend.md",
+      "source_location": "L94",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "prd_frontend_3_sistem_desain_autumn_warm",
+      "target": "prd_frontend_3_1_palet_warna",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "PRD-Frontend.md",
+      "source_location": "L129",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "prd_frontend_3_sistem_desain_autumn_warm",
+      "target": "prd_frontend_3_2_tipografi",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "PRD-Frontend.md",
+      "source_location": "L141",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "prd_frontend_3_sistem_desain_autumn_warm",
+      "target": "prd_frontend_3_3_spacing_system",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "PRD-Frontend.md",
+      "source_location": "L156",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "prd_frontend_3_sistem_desain_autumn_warm",
+      "target": "prd_frontend_3_4_corner_radius_shape_consistency_lock",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "PRD-Frontend.md",
+      "source_location": "L169",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "prd_frontend_3_sistem_desain_autumn_warm",
+      "target": "prd_frontend_3_5_shadow_system",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "PRD-Frontend.md",
+      "source_location": "L184",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "prd_frontend_4_animasi_dan_motion",
+      "target": "prd_frontend_4_1_prinsip_motion",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "PRD-Frontend.md",
+      "source_location": "L191",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "prd_frontend_4_animasi_dan_motion",
+      "target": "prd_frontend_4_2_katalog_motion",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "PRD-Frontend.md",
+      "source_location": "L205",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "prd_frontend_4_animasi_dan_motion",
+      "target": "prd_frontend_4_3_css_implementation_pattern",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "PRD-Frontend.md",
+      "source_location": "L251",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "prd_frontend_5_komponen_ui_dan_mapping_ke_halaman",
+      "target": "prd_frontend_5_1_komponen_shared_digunakan_di_banyak_halaman",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "PRD-Frontend.md",
+      "source_location": "L352",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "prd_frontend_5_komponen_ui_dan_mapping_ke_halaman",
+      "target": "prd_frontend_5_2_mapping_halaman_ke_komponen",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "PRD-Frontend.md",
+      "source_location": "L253",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "prd_frontend_5_1_komponen_shared_digunakan_di_banyak_halaman",
+      "target": "prd_frontend_a_navbar_publik",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "PRD-Frontend.md",
+      "source_location": "L266",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "prd_frontend_5_1_komponen_shared_digunakan_di_banyak_halaman",
+      "target": "prd_frontend_b_sidebar_admin",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "PRD-Frontend.md",
+      "source_location": "L281",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "prd_frontend_5_1_komponen_shared_digunakan_di_banyak_halaman",
+      "target": "prd_frontend_c_footer_publik",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "PRD-Frontend.md",
+      "source_location": "L292",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "prd_frontend_5_1_komponen_shared_digunakan_di_banyak_halaman",
+      "target": "prd_frontend_d_card_buku",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "PRD-Frontend.md",
+      "source_location": "L307",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "prd_frontend_5_1_komponen_shared_digunakan_di_banyak_halaman",
+      "target": "prd_frontend_e_flash_message_alert",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "PRD-Frontend.md",
+      "source_location": "L315",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "prd_frontend_5_1_komponen_shared_digunakan_di_banyak_halaman",
+      "target": "prd_frontend_f_form_styling",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "PRD-Frontend.md",
+      "source_location": "L329",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "prd_frontend_5_1_komponen_shared_digunakan_di_banyak_halaman",
+      "target": "prd_frontend_g_button_styles",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "PRD-Frontend.md",
+      "source_location": "L341",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "prd_frontend_5_1_komponen_shared_digunakan_di_banyak_halaman",
+      "target": "prd_frontend_h_rating_stars",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "PRD-Frontend.md",
+      "source_location": "L622",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "prd_frontend_5_2_mapping_halaman_ke_komponen",
+      "target": "prd_frontend_halaman_11_13_admin_crud_genre_admin_genres",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "PRD-Frontend.md",
+      "source_location": "L633",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "prd_frontend_5_2_mapping_halaman_ke_komponen",
+      "target": "prd_frontend_halaman_14_admin_kelola_user_admin_users",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "PRD-Frontend.md",
+      "source_location": "L358",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "prd_frontend_5_2_mapping_halaman_ke_komponen",
+      "target": "prd_frontend_halaman_1_home_daftar_buku",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "PRD-Frontend.md",
+      "source_location": "L399",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "prd_frontend_5_2_mapping_halaman_ke_komponen",
+      "target": "prd_frontend_halaman_2_detail_buku_books_book",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "PRD-Frontend.md",
+      "source_location": "L459",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "prd_frontend_5_2_mapping_halaman_ke_komponen",
+      "target": "prd_frontend_halaman_3_genre_genres_genre",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "PRD-Frontend.md",
+      "source_location": "L485",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "prd_frontend_5_2_mapping_halaman_ke_komponen",
+      "target": "prd_frontend_halaman_4_login_login",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "PRD-Frontend.md",
+      "source_location": "L511",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "prd_frontend_5_2_mapping_halaman_ke_komponen",
+      "target": "prd_frontend_halaman_5_ganti_password_change_password",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "PRD-Frontend.md",
+      "source_location": "L534",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "prd_frontend_5_2_mapping_halaman_ke_komponen",
+      "target": "prd_frontend_halaman_6_profil_user_profile",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "PRD-Frontend.md",
+      "source_location": "L568",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "prd_frontend_5_2_mapping_halaman_ke_komponen",
+      "target": "prd_frontend_halaman_7_admin_dashboard_admin_dashboard",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "PRD-Frontend.md",
+      "source_location": "L597",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "prd_frontend_5_2_mapping_halaman_ke_komponen",
+      "target": "prd_frontend_halaman_8_10_admin_crud_buku_admin_books",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "PRD-Frontend.md",
+      "source_location": "L647",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "prd_frontend_6_layout_system",
+      "target": "prd_frontend_6_1_layout_publik_layouts_app_blade_php",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "PRD-Frontend.md",
+      "source_location": "L668",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "prd_frontend_6_layout_system",
+      "target": "prd_frontend_6_2_layout_admin_layouts_admin_blade_php",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "PRD-Frontend.md",
+      "source_location": "L701",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "prd_frontend_7_responsive_breakpoints",
+      "target": "prd_frontend_7_1_mobile_specific_rules",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "PRD-Frontend.md",
+      "source_location": "L714",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "prd_frontend_8_file_yang_akan_dimodifikasi",
+      "target": "prd_frontend_8_1_file_baru",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "PRD-Frontend.md",
+      "source_location": "L720",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "prd_frontend_8_file_yang_akan_dimodifikasi",
+      "target": "prd_frontend_8_2_file_yang_dimodifikasi",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "PRD-Frontend.md",
+      "source_location": "L741",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "prd_frontend_8_file_yang_akan_dimodifikasi",
+      "target": "prd_frontend_8_3_file_yang_tidak_diubah",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "PRD-Frontend.md",
+      "source_location": "L756",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "prd_frontend_9_urutan_implementasi",
+      "target": "prd_frontend_fase_1_foundation_3_file",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "PRD-Frontend.md",
+      "source_location": "L766",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "prd_frontend_9_urutan_implementasi",
+      "target": "prd_frontend_fase_2_halaman_publik_utama_3_file",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "PRD-Frontend.md",
+      "source_location": "L776",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "prd_frontend_9_urutan_implementasi",
+      "target": "prd_frontend_fase_3_auth_dan_profil_3_file",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "PRD-Frontend.md",
+      "source_location": "L786",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "prd_frontend_9_urutan_implementasi",
+      "target": "prd_frontend_fase_4_admin_panel_7_file",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "PRD-Frontend.md",
+      "source_location": "L805",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "prd_frontend_10_aturan_dan_larangan",
+      "target": "prd_frontend_10_1_yang_harus_dilakukan",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "PRD-Frontend.md",
+      "source_location": "L816",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "prd_frontend_10_aturan_dan_larangan",
+      "target": "prd_frontend_10_2_yang_dilarang",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "PRD-Frontend.md",
+      "source_location": "L826",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "prd_frontend_10_aturan_dan_larangan",
+      "target": "prd_frontend_10_3_konsistensi",
+      "confidence_score": 1.0
+    },
+    {
       "relation": "references",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -7254,5 +8563,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "ef953344d1d7237878fc658172110bd45523e478"
+  "built_at_commit": "2866325dffff23036e0e30be4b59fc34553058b0"
 }

@@ -1,7 +1,7 @@
 {
   "app/Http/Controllers/AuthController.php": {
-    "mtime": 1786256338.8970692,
-    "ast_hash": "eeec9540e1cb31dd03fc0251656403d3",
+    "mtime": 1786259242.6551077,
+    "ast_hash": "66abf8c00aa29ed8460605143b7cc1ae",
     "semantic_hash": ""
   },
   "app/Http/Controllers/Controller.php": {
@@ -115,9 +115,9 @@
     "semantic_hash": "534a1b7af7009c373ea4ebfa18823d57"
   },
   "config/session.php": {
-    "mtime": 1779750712.0,
-    "ast_hash": "5ea7169252ec3cc7fad471f5cd0d7678",
-    "semantic_hash": "5ea7169252ec3cc7fad471f5cd0d7678"
+    "mtime": 1786257832.7485332,
+    "ast_hash": "4f4cdd5e1af9c8cec6aecb844954b460",
+    "semantic_hash": ""
   },
   "database/factories/UserFactory.php": {
     "mtime": 1779750712.0,
@@ -189,19 +189,14 @@
     "ast_hash": "b519d08ef66fd54910edbedba6181ec2",
     "semantic_hash": "b519d08ef66fd54910edbedba6181ec2"
   },
-  "resources/views/welcome.blade.php": {
-    "mtime": 1779750712.0,
-    "ast_hash": "1a03818ea91deb4f3989c6c994e5867c",
-    "semantic_hash": "1a03818ea91deb4f3989c6c994e5867c"
-  },
   "routes/console.php": {
     "mtime": 1779750712.0,
     "ast_hash": "3c6ce2e6d16444282b24a9aa63885563",
     "semantic_hash": "3c6ce2e6d16444282b24a9aa63885563"
   },
   "routes/web.php": {
-    "mtime": 1786256587.8038964,
-    "ast_hash": "5d61862e8e643458458bf9d7a46bd795",
+    "mtime": 1786259372.7097044,
+    "ast_hash": "8948e70faf59c55345499ea7e98470dd",
     "semantic_hash": ""
   },
   "tests/Feature/ExampleTest.php": {
@@ -240,7 +235,7 @@
     "semantic_hash": "b6216d61c03e6ce0c9aea6ca7808f7ca"
   },
   "app/Http/Controllers/Admin/AdminBookController.php": {
-    "mtime": 1786256818.4380798,
+    "mtime": 1786258759.8354414,
     "ast_hash": "7a1ba8e10c2342a6efc436b0ef3c8a17",
     "semantic_hash": ""
   },

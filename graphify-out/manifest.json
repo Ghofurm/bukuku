@@ -220,9 +220,9 @@
     "semantic_hash": "8ef22d264079dab94f6d36526b0cb1bc"
   },
   "PRD.md": {
-    "mtime": 1786249728.985871,
-    "ast_hash": "adb1b8ec7cf16c2588051ea28845af8b",
-    "semantic_hash": "adb1b8ec7cf16c2588051ea28845af8b"
+    "mtime": 1786264374.6584544,
+    "ast_hash": "85d4f26376054ded6151a64fd5b6a6af",
+    "semantic_hash": ""
   },
   "README.md": {
     "mtime": 1779750712.0,
@@ -280,83 +280,88 @@
     "semantic_hash": ""
   },
   "resources/views/admin/books/create.blade.php": {
-    "mtime": 1786257501.4011838,
-    "ast_hash": "684b138e46075e63104239fb3fc0c472",
+    "mtime": 1786263544.294312,
+    "ast_hash": "3e29111f4462dbda4590c57577e18c90",
     "semantic_hash": ""
   },
   "resources/views/admin/books/edit.blade.php": {
-    "mtime": 1786257502.7316978,
-    "ast_hash": "63d1306f06c37b01fcadd838f615f37b",
+    "mtime": 1786263577.831264,
+    "ast_hash": "5788b43e0b9566139f79a086ad759f1e",
     "semantic_hash": ""
   },
   "resources/views/admin/books/index.blade.php": {
-    "mtime": 1786257480.2080514,
-    "ast_hash": "c9d353b22d58bb66c61cce99cc1c5f68",
+    "mtime": 1786263536.763772,
+    "ast_hash": "d35b6c5b6d9faa2856b7746f3a211ae5",
     "semantic_hash": ""
   },
   "resources/views/admin/dashboard.blade.php": {
-    "mtime": 1786257479.5371203,
-    "ast_hash": "c154662a12f62f375b7cfe331dc66333",
+    "mtime": 1786263971.771653,
+    "ast_hash": "cf8243039c0e234005a549ed3717f104",
     "semantic_hash": ""
   },
   "resources/views/admin/genres/create.blade.php": {
-    "mtime": 1786257548.0622091,
-    "ast_hash": "9d0fa9e2beb18af3acc3c1d5baed4c5b",
+    "mtime": 1786263591.472974,
+    "ast_hash": "33abb88cdc45cfcfc7dfa21de510a888",
     "semantic_hash": ""
   },
   "resources/views/admin/genres/edit.blade.php": {
-    "mtime": 1786257560.247626,
-    "ast_hash": "d304901f348821841bdf5b20c02e7c1d",
+    "mtime": 1786263602.069424,
+    "ast_hash": "5b11ba48cfe4471e8b0e03ecfd85aa7e",
     "semantic_hash": ""
   },
   "resources/views/admin/genres/index.blade.php": {
-    "mtime": 1786257546.5626419,
-    "ast_hash": "52ee2ef6860ddeb52ae548e55e941563",
+    "mtime": 1786263583.9328666,
+    "ast_hash": "2206838ab514c6fffd684e4d461487e8",
     "semantic_hash": ""
   },
   "resources/views/admin/users/index.blade.php": {
-    "mtime": 1786257560.7909958,
-    "ast_hash": "8ca4d57f7bebbe1ffc54bb95d55a0a30",
+    "mtime": 1786263610.9480138,
+    "ast_hash": "f25d53bd258028f6f9a8724fbd30622e",
     "semantic_hash": ""
   },
   "resources/views/auth/change-password.blade.php": {
-    "mtime": 1786257368.553896,
-    "ast_hash": "d8484dc1625624f5c936f5af83cf41b6",
+    "mtime": 1786263156.6047728,
+    "ast_hash": "15de42569747c1246d8dccf039a99b85",
     "semantic_hash": ""
   },
   "resources/views/auth/login.blade.php": {
-    "mtime": 1786257367.6895983,
-    "ast_hash": "257f6be4098637ab7fb04b2775005d69",
+    "mtime": 1786263149.6315978,
+    "ast_hash": "5a38ab4eda1b09db3ab49dc4953b983c",
     "semantic_hash": ""
   },
   "resources/views/books/index.blade.php": {
-    "mtime": 1786257429.540697,
-    "ast_hash": "19b19aabdddadf3bd33328c1d1ceb1c9",
+    "mtime": 1786262624.834388,
+    "ast_hash": "fcaad4f22913fb5d53724b041296389b",
     "semantic_hash": ""
   },
   "resources/views/books/show.blade.php": {
-    "mtime": 1786257430.5839982,
-    "ast_hash": "7de6dd93285e47d4de93785911eb95ea",
+    "mtime": 1786262668.006758,
+    "ast_hash": "a9356477e134a4051fd71f0fd2fa3fa7",
     "semantic_hash": ""
   },
   "resources/views/genres/show.blade.php": {
-    "mtime": 1786257462.0948129,
-    "ast_hash": "d441b722c0c4f0e033b80eddc1106035",
+    "mtime": 1786262678.9912155,
+    "ast_hash": "282c89e00db016e3327f3f7a310fb4de",
     "semantic_hash": ""
   },
   "resources/views/layouts/admin.blade.php": {
-    "mtime": 1786257355.53054,
-    "ast_hash": "fcee7d6b518ec6d755d98dc8779e1225",
+    "mtime": 1786262253.3571115,
+    "ast_hash": "60f2f981e606d38309ab3cc019280b41",
     "semantic_hash": ""
   },
   "resources/views/layouts/app.blade.php": {
-    "mtime": 1786257345.6048052,
-    "ast_hash": "6ba57f25aed13bcfd7a943c86e836312",
+    "mtime": 1786262089.2360294,
+    "ast_hash": "6769b6417323feae468760777ec592c6",
     "semantic_hash": ""
   },
   "resources/views/profile/index.blade.php": {
-    "mtime": 1786257463.614395,
-    "ast_hash": "42626a2b26f9f835ec21f97a5b9da436",
+    "mtime": 1786263174.9119194,
+    "ast_hash": "667bd9e9f602b75317129578a0b6b9cf",
+    "semantic_hash": ""
+  },
+  "PRD-Frontend.md": {
+    "mtime": 1786264377.7058256,
+    "ast_hash": "e74bd79cd08900962a625ed6bf138ef8",
     "semantic_hash": ""
   }
 }

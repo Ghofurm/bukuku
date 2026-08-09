@@ -1,16 +1,16 @@
 # Graph Report - bukuku  (2026-08-09)
 
 ## Corpus Check
-- 72 files · ~16,605 words
+- 71 files · ~12,713 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 272 nodes · 358 edges · 53 communities (50 shown, 3 thin omitted)
+- 271 nodes · 358 edges · 52 communities (49 shown, 3 thin omitted)
 - Extraction: 97% EXTRACTED · 3% INFERRED · 0% AMBIGUOUS · INFERRED: 12 edges (avg confidence: 0.8)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `2df2de3b`
+- Built from commit: `ef953344`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -59,7 +59,7 @@
 ## Import Cycles
 - None detected.
 
-## Communities (53 total, 3 thin omitted)
+## Communities (52 total, 3 thin omitted)
 
 ### Community 0 - "composer.json"
 Cohesion: 0.06
