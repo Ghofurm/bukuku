@@ -10,10 +10,15 @@ class AuthController extends Controller
 {
     /**
      * Menampilkan form login.
+     * Jika user sudah login, langsung redirect ke halaman utama.
      * Mengembalikan view 'auth.login'.
      */
     public function showLogin()
     {
+        if (session()->has('user_id')) {
+            return redirect()->route('home');
+        }
+
         return view('auth.login');
     }
 
