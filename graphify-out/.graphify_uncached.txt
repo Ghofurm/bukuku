@@ -1,0 +1,3 @@
+C:\App\laragon\www\bukuku\PRD.md
+C:\App\laragon\www\bukuku\README.md
+C:\App\laragon\www\bukuku\public\robots.txt
